@@ -1,5 +1,5 @@
 
-/Root 
+## /Root 
 
 The Function design language system, or /root, will provide staff, clients, and customers a shared understanding of our visual style, provide better access to analogue and digital resources, and streamline all contributions into a single, coherent system. This system will enable all users to prototype and experiment with ideas in high fidelity faster, at a lower cost, and in a more consistent voice.
 
