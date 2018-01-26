@@ -1,0 +1,387 @@
+body {
+	background:  #fff;
+}
+
+p {
+	font-family: "Roboto Mono", monospace;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	line-height: 200%;
+}
+
+mark {
+   background-color: #6AB7E1;
+   color: #fff;
+}
+
+
+nav {
+	background: #38138E; 
+	text-align: center;
+	font-family: "Roboto Mono", monospace;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color:#fff;
+}
+
+.nav-link.active {
+	color: #6AB7E1;
+}
+
+/*nav menu button*/
+
+.navbar-toggler {
+	border: none;
+	background-color: none;
+}
+
+.navbar-toggler-icon span {
+	background-color: white;
+}
+
+
+.navbar-nav li {
+	padding-right: 1em;
+}
+
+
+.gradbg {
+	z-index: -11111;
+}
+
+
+/*WELCOME*/
+
+#welcome {
+  background: transparent;
+  margin-top:-110%;
+  padding-top:0%;
+  padding-bottom:14%;
+
+  /*-ms-transform: skew(0deg,-6deg);
+  -webkit-transform: skew(0deg,-6deg); 
+  transform: skew(0deg,-6deg); /* Standard syntax */
+}
+
+
+.welcometext{
+	color: #fff; 
+	margin-left: 8%;
+}
+
+
+/* SASS*/
+@media (max-width: 575.99px) {
+	#welcome{
+		margin-top:-93%;}
+}
+
+
+.welcomelist {
+	font-family: "Roboto Mono", monospace;
+	font-size: 1em;
+}
+
+.welcomelist li {
+		padding-bottom: 0.4em;
+}
+
+
+/*
+h1 {
+  font-family: "freight-display-pro", serif;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  font-size: 5em;
+}
+
+
+#welcome h1 {
+  color: #fff; 	
+  font-size: 5.75em;
+}
+
+#welcome p {
+  font-family: "Roboto Mono", monospace;
+  letter-spacing: 1px;
+  font-size: 1em;
+  color: #fff; 
+}
+
+
+/* SASS*/
+@media (max-width: 575.99px) {
+
+	h1 {   
+		font-size: 3.9em;}
+
+	#welcome {
+		font-size: 0.9em;}
+
+}
+
+
+/*BELIEFS*/
+
+h3 {
+	font-family: "Roboto Mono", monospace;
+	font-size: 2em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+#beliefs {
+	background: #FFF;
+	text-align: center;
+	padding: 8em 1.5em;
+	margin-top: 5%;
+
+  -ms-transform: skew(0deg,-6deg);
+  -webkit-transform: skew(0deg,-6deg); 
+  transform: skew(0deg,-6deg); /* Standard syntax */
+
+}
+
+.beliefstext {
+	color: #000;
+
+	-ms-transform: skew(0deg,6deg); 
+    -webkit-transform: skew(0deg,6deg); 
+    transform: skew(0deg,6deg); 
+    position:relative;
+    z-index:1; 
+
+}
+
+.webelieve {
+	padding: 0.5em 6em;
+}
+
+@media (max-width: 575.99px) {
+
+	#beliefs{   
+		margin-top: 27%;}
+
+	.webelieve {
+		padding: 0.5em 1em;}
+
+}
+
+h4 {
+	font-family: "freight-display-pro", serif;
+	font-weight: 700;	
+	font-size: 1.8em;
+	letter-spacing: 0.5px;
+	line-height: 120%;
+}
+
+
+#beliefs span {
+	font-size: 0.5em;
+	display: inline;
+}
+
+
+.belieficons img {
+	padding: 2.5em;
+}
+
+
+.belieficons li{
+	display: inline;
+	float: left;
+	padding: 0.5em;
+
+	
+  -ms-transform: skew(0deg,0deg);
+  -webkit-transform: skew(0deg,0deg); 
+  transform: skew(0deg,0deg); /* Standard syntax */
+}
+
+
+
+
+
+
+/*RITUALS*/
+
+h2 {
+	font-family: "freight-display-pro", serif;
+	font-weight: 900;	
+	letter-spacing: 0.5px;
+	font-size: 2.2em;
+}
+
+#rituals {
+	padding:2em 1em;
+	margin-top: 0%;
+}
+
+#rituals article {
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+.humancentered {
+	background: #fff;
+}
+
+.experience{
+	background: #6AB7E1;
+	color:white;
+	padding: 0.5em;
+}
+
+ .datadesign {
+	background: #D85B56;
+	color:white;
+	padding: 0.5em;
+}
+
+
+
+
+
+
+
+
+/*SERVICES*/
+
+.handy img {
+	opacity: 0.2;
+	z-index: -3;
+	margin-top: -16em;
+	padding-left: 2em;
+}
+
+#services {
+	background: #FFFAF0;
+	padding: 8em 1em;
+
+
+  -ms-transform: skew(0deg,6deg);
+  -webkit-transform: skew(0deg,6deg); 
+  transform: skew(0deg,6deg); /* Standard syntax */
+
+}
+
+
+
+
+#services ul {
+  padding: 1.5em;
+  font-family: "Roboto Mono", monospace;
+  font-style: italic;
+  letter-spacing: 1px;
+  line-height: 180%;
+  font-size: 1em;
+  color: #D85B56;
+
+
+
+	-ms-transform: skew(0deg,-6deg); 
+    -webkit-transform: skew(0deg,-6deg); 
+    transform: skew(0deg,-6deg); 
+    position:relative;
+    z-index:1; 
+}
+
+#services h1 {
+  color: #D85B56;
+  line-height: 100%;
+  margin-left: 0.2em;
+  z-index: 3;
+
+
+
+	-ms-transform: skew(0deg,-6deg); 
+    -webkit-transform: skew(0deg,-6deg); 
+    transform: skew(0deg,-6deg); 
+    position:relative;
+    z-index:1; 
+}
+
+
+
+
+
+
+/*BELIEVERS*/
+
+#believers {
+	background: #FFFAF0;
+	padding: 4em 3em;
+	padding-top: 5em;
+	margin-top: -10%;
+	color: #38138E;
+	text-align: center;
+}
+
+#believers h3 {
+	color: #38138E;
+}
+
+#believers h4 {
+	color: #38138E;	
+}
+
+
+.btn-primary {
+	background-color: #38138E;	
+	border: 2px solid #38138E;	
+	border-radius: 0em;
+	padding: 1em 3em;
+}
+
+.btn-primary:hover {
+	background: #FFFAF0;
+	border: 2px solid #38138E;
+	color: #38138E;	
+}
+
+
+.clients img {
+	padding: 1em;
+}
+.clients li{
+	display: inline;
+	float: left;
+	padding: 1.5em;
+}
+
+form {
+	text-align: left;
+	font-family: "Roboto Mono", monospace;
+	letter-spacing: 1px;
+	padding-bottom: 3em;
+	padding-top: 5em;
+}
+
+.form-group {
+	padding-bottom: 1em;
+}
+
+label {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+
+/*FOOTER*/
+
+.function-foot {
+	background: #38138E;	
+	color: #FFFAF0;
+	font-family: "Roboto Mono", monospace;
+	letter-spacing: 1px;
+	font-size: 0.8em;
+	padding:5em 3em;
+}
+
+
+
+

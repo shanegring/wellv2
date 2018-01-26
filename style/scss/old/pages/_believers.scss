@@ -1,0 +1,67 @@
+
+
+@import "./abstracts/variables";
+
+/*BELIEVERS*/
+
+#believers {
+  background: #FFFAF0;
+  padding: 4em 3em;
+  padding-top: 5em;
+  margin-top: -10%;
+  color: $indigo;
+  text-align: center;
+
+
+h3 {
+  color: $indigo;
+}
+
+ h4 {
+  color: $indigo; 
+}
+
+
+.btn-primary {
+  background-color: $indigo;  
+  border: 2px solid $indigo;  
+  border-radius: 0em;
+  padding: 1em 3em;
+}
+
+.btn-primary:hover {
+  background: #FFFAF0;
+  border: 2px solid $indigo;
+  color: $indigo; 
+}
+
+
+.clients img {
+  padding: 1em;
+}
+
+.clients li{
+  display: inline;
+  float: left;
+  padding: 1.5em;
+}
+
+form {
+  text-align: left;
+  font-family: "Roboto Mono", monospace;
+  letter-spacing: 1px;
+  padding-bottom: 3em;
+  padding-top: 5em;
+}
+
+.form-group {
+  padding-bottom: 1em;
+  font-family: "Roboto Mono", monospace;  
+}
+
+
+label {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+}

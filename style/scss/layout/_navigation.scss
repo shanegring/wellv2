@@ -1,0 +1,32 @@
+nav {
+	background: #38138E; 
+	text-align: center;
+	font-family: "Roboto Mono", monospace;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color:#fff;
+}
+
+.nav-link.active {
+	color: #6AB7E1;
+}
+
+/*nav menu button*/
+
+.navbar-toggler {
+	border: none;
+	background-color: none;
+}
+
+.navbar-toggler-icon span {
+	background-color: white;
+}
+
+
+.navbar-nav li {
+	padding-right: 1em;
+}

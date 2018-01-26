@@ -1,0 +1,65 @@
+
+@import "./abstracts/variables";
+
+
+#beliefs {
+  background: #FFF;
+  text-align: center;
+  padding: 8em 1.5em;
+  margin-top: 5%;
+
+  -ms-transform: skew(0deg,-6deg);
+  -webkit-transform: skew(0deg,-6deg); 
+  transform: skew(0deg,-6deg); /* Standard syntax */
+
+  h3 {
+  text-transform: uppercase;
+  }
+
+}
+
+.beliefstext {
+  color: #000;
+  -ms-transform: skew(0deg,6deg); 
+  -webkit-transform: skew(0deg,6deg); 
+  transform: skew(0deg,6deg); 
+  position:relative;
+  z-index:1; 
+
+}
+
+.webelieve {
+  padding: 0.5em 6em;
+}
+
+@include media ('>tablet') {
+
+  #beliefs{   
+    margin-top: -5%;}
+
+  .webelieve {
+    padding: 0.5em 1em;}
+
+}
+
+
+#beliefs span {
+  font-size: 0.5em;
+  display: inline;
+}
+
+.belieficons img {
+  padding: 2.5em;
+}
+
+
+.belieficons li{
+  display: inline;
+  float: left;
+  padding: 0.5em;
+  -ms-transform: skew(0deg,0deg);
+  -webkit-transform: skew(0deg,0deg); 
+  transform: skew(0deg,0deg); /* Standard syntax */
+}
+
+

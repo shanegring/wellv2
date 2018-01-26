@@ -1,0 +1,56 @@
+
+
+@import "./abstracts/variables";
+
+#welcome {
+  background: transparent;
+  margin-top:-140%;
+  padding-top:0%;
+  padding-bottom:14%;
+}
+
+
+.welcometext{
+  color: #fff; 
+  margin-left: 8%;
+}
+
+
+/* SASS*/
+@include media ('>tablet') {
+
+ #welcome{
+    margin-top:-140%;}
+	}
+
+
+.welcomelist li {
+    padding-bottom: 0.4em;
+}
+
+h1 {
+  font-weight: 900;
+  letter-spacing: 0.5px;
+}
+
+
+#welcome h1 {
+  color: #fff;  
+  font-size: 5.75em;
+}
+
+#welcome p {
+  letter-spacing: 1px;
+  color: #fff; 
+}
+
+/* SASS*/
+@include media ('>tablet') {
+
+  h1 {   
+    font-size: 3.9em;}
+
+  #welcome {
+    font-size: 0.9em;}
+
+}

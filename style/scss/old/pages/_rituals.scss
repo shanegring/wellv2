@@ -1,0 +1,39 @@
+
+
+@import "./abstracts/variables";
+
+#rituals {
+
+  padding: 2em 1em;
+
+
+  h2 {
+    font-weight: 900; 
+    letter-spacing: 0.5px;
+  }
+
+  #rituals article {
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+
+  .humancentered {
+    background: #fff;
+  }
+
+  .experience{
+    background: $blue;
+    color:white;
+    padding: 0.5em;
+  }
+
+   .datadesign {
+    background: $red;
+    color:white;
+    padding: 0.5em;
+  }
+}
+
+
+
+

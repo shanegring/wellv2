@@ -1,0 +1,50 @@
+
+
+@import "./abstracts/variables";
+
+.handy img {
+  opacity: 0.2;
+  z-index: -3;
+  margin-top: -24em;
+  padding-left: 2em;
+}
+
+#services {
+
+  background: #FFFAF0;
+  padding: 8em 1em;
+  -ms-transform: skew(0deg,6deg);
+  -webkit-transform: skew(0deg,6deg); 
+  transform: skew(0deg,6deg); /* Standard syntax */
+
+  ul {
+  padding: 1.5em;
+  padding-top: 9em;
+  margin-left: -38%;
+  font-style: italic;
+  letter-spacing: 1px;
+  line-height: 180%;
+  font-size: 1em;
+  color: $red;
+  -ms-transform: skew(0deg,-6deg); 
+    -webkit-transform: skew(0deg,-6deg); 
+    transform: skew(0deg,-6deg); 
+    position:relative;
+    z-index:1; 
+}
+
+  h1 {
+  color: $red;
+  line-height: 100%;
+  margin-left: 0.2em;
+  z-index: 3;
+  -ms-transform: skew(0deg,-6deg); 
+    -webkit-transform: skew(0deg,-6deg); 
+    transform: skew(0deg,-6deg); 
+    position:relative;
+    z-index:1; 
+  }
+
+}
+
+

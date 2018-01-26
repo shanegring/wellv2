@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<!--[if IE 8]--> <html class="ie8 ie_old" lang="en"> <!--[endif]-->
+
+<head>
+  <meta charset = "UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Welcome to Function</title>
+
+  <!--Favicon
+  <link rel="icon" type="image/png" href="images/box.png">-->
+
+     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous"> 
+
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+   <!-- Typekit -->
+   <link rel="stylesheet" href="https://use.typekit.net/qyt6pox.css">
+
+     <!--CSS Main-->
+
+   <link rel="stylesheet" href="../build/css/main.css">
+
+   <!--JS-->  
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/modernizr.js"></script> <!-- Modernizr -->
+  <noscript><link rel="stylesheet" type="text/css" href="css/noJS.css"/></noscript>
+
+
+</head>
+
+
+<body>
+
+<div class="col-12 mt-4 p-4">
+  <div class="row">
+
+<div class="col-3">
+  <div style="position: fixed">
+<div class="list-group" style="width: 300px">
+  <a href="home.html" class="list-group-item" >Home</a>
+  <a href="typography.html" class="list-group-item list-group-item-action active">Typography</a>
+  <a href="buttons.html" class="list-group-item list-group-item-action">Buttons</a>
+  <a href="cards.html" class="list-group-item list-group-item-action">Cards</a>
+  <a href="input.html" class="list-group-item list-group-item-action">Inputs</a>
+  <a href="spacing.html" class="list-group-item list-group-item-action">Spacing</a>
+</div>
+</div>
+</div>
+
+
+<div class="col-9">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12">
+
+      <h1 class="mb-4">Typography</h1>
+
+      <hr />
+
+      
+      <h1>h1. Bootstrap heading</h1>
+      <h2>h2. Bootstrap heading</h2>
+      <h3>h3. Bootstrap heading</h3>
+      <h4>h4. Bootstrap heading</h4>
+      <h5>h5. Bootstrap heading</h5>
+      <h6>h6. Bootstrap heading</h6>
+
+
+  <figure class="highlight">
+    <pre><code class="language-html" data-lang="html">
+    <span class="nt">&lt;h1&gt;</span>h1. Bootstrap heading<span class="nt">&lt;/h1&gt;</span>
+    <span class="nt">&lt;h2&gt;</span>h2. Bootstrap heading<span class="nt">&lt;/h2&gt;</span>
+    <span class="nt">&lt;h3&gt;</span>h3. Bootstrap heading<span class="nt">&lt;/h3&gt;</span>
+    <span class="nt">&lt;h4&gt;</span>h4. Bootstrap heading<span class="nt">&lt;/h4&gt;</span>
+    <span class="nt">&lt;h5&gt;</span>h5. Bootstrap heading<span class="nt">&lt;/h5&gt;</span>
+    <span class="nt">&lt;h6&gt;</span>h6. Bootstrap heading<span class="nt">&lt;/h6&gt;</span>
+    </code></pre>
+  </figure>
+
+      <hr />
+
+      <h4 class="mt-4">Display</h4>
+      <h1 class="display-1 mt-4">Display 1</h1>
+      <h1 class="display-2">Display 2</h1>
+      <h1 class="display-3">Display 3</h1>
+      <h1 class="display-4">Display 4</h1>
+
+  <figure class="highlight">
+    <pre><code class="language-html" data-lang="html">
+    <span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"display-1"</span><span class="nt">&gt;</span>Display 1<span class="nt">&lt;/h1&gt;</span>
+    <span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"display-2"</span><span class="nt">&gt;</span>Display 2<span class="nt">&lt;/h1&gt;</span>
+    <span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"display-3"</span><span class="nt">&gt;</span>Display 3<span class="nt">&lt;/h1&gt;</span>
+    <span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"display-4"</span><span class="nt">&gt;</span>Display 4<span class="nt">&lt;/h1&gt;</span>
+    </code></pre>
+  </figure>
+
+      <hr />
+
+      <h4 class="mt-4">Text Elements</h4>
+      <p class="mt-4">You can use the mark tag to <mark>highlight</mark> text.</p>
+      <p><del>This line of text is meant to be treated as deleted text.</del></p>
+      <p><s>This line of text is meant to be treated as no longer accurate.</s></p>
+      <p><ins>This line of text is meant to be treated as an addition to the document.</ins></p>
+      <p><u>This line of text will render as underlined</u></p>
+      <p><small>This line of text is meant to be treated as fine print.</small></p>
+      <p><strong>This line rendered as bold text.</strong></p>
+      <p><em>This line rendered as italicized text.</em></p>
+
+  <div class="highlight">
+    <pre><code class="language-html" data-lang="html">
+    <span class="nt">&lt;p&gt;</span>You can use the mark tag to <span class="nt">&lt;mark&gt;</span>highlight<span class="nt">&lt;/mark&gt;</span> text.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p&gt;&lt;del&gt;</span>This line of text is meant to be treated as deleted text.<span class="nt">&lt;/del&gt;&lt;/p&gt;</span>
+    <span class="nt">&lt;p&gt;&lt;s&gt;</span>This line of text is meant to be treated as no longer accurate.<span class="nt">&lt;/s&gt;&lt;/p&gt;</span>
+    <span class="nt">&lt;p&gt;&lt;ins&gt;</span>This line of text is meant to be treated as an addition to the document.<span class="nt">&lt;/ins&gt;&lt;/p&gt;</span>
+    <span class="nt">&lt;p&gt;&lt;u&gt;</span>This line of text will render as underlined<span class="nt">&lt;/u&gt;&lt;/p&gt;</span>
+    <span class="nt">&lt;p&gt;&lt;small&gt;</span>This line of text is meant to be treated as fine print.<span class="nt">&lt;/small&gt;&lt;/p&gt;</span>
+    <span class="nt">&lt;p&gt;&lt;strong&gt;</span>This line rendered as bold text.<span class="nt">&lt;/strong&gt;&lt;/p&gt;</span>
+    <span class="nt">&lt;p&gt;&lt;em&gt;</span>This line rendered as italicized text.<span class="nt">&lt;/em&gt;&lt;/p&gt;</span>
+    </code></pre>
+  </div>
+
+      <hr />
+
+      <h4 class="mt-4">Quotes</h4>
+      <blockquote class="blockquote">
+        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+      </blockquote>
+
+      <blockquote class="blockquote blockquote-reverse">
+        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+      </blockquote>
+
+  <div class="highlight">
+    <pre><code class="language-html" data-lang="html">
+    <span class="nt">&lt;blockquote</span> <span class="na">class=</span><span class="s">"blockquote"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"mb-0"</span><span class="nt">&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;footer</span> <span class="na">class=</span><span class="s">"blockquote-footer"</span><span class="nt">&gt;</span>Someone famous in <span class="nt">&lt;cite</span> <span class="na">title=</span><span class="s">"Source Title"</span><span class="nt">&gt;</span>Source Title<span class="nt">&lt;/cite&gt;&lt;/footer&gt;</span>
+    <span class="nt">&lt;/blockquote&gt;</span>
+    </code></pre>
+
+    <pre><code class="language-html" data-lang="html">
+    <span class="nt">&lt;blockquote</span> <span class="na">class=</span><span class="s">"blockquote blockquote-reverse"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"mb-0"</span><span class="nt">&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;footer</span> <span class="na">class=</span><span class="s">"blockquote-footer"</span><span class="nt">&gt;</span>Someone famous in <span class="nt">&lt;cite</span> <span class="na">title=</span><span class="s">"Source Title"</span><span class="nt">&gt;</span>Source Title<span class="nt">&lt;/cite&gt;&lt;/footer&gt;</span>
+    <span class="nt">&lt;/blockquote&gt;</span>
+    </code></pre>
+
+  </div>
+
+
+
+       <hr />
+
+
+      <h4 class="mt-4">Lists</h4>
+       <ul class="list-unstyled">
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>Consectetur adipiscing elit</li>
+          <li>Integer molestie lorem at massa</li>
+          <li>Facilisis in pretium nisl aliquet</li>
+          <li>Nulla volutpat aliquam velit
+            <ul>
+              <li>Phasellus iaculis neque</li>
+              <li>Purus sodales ultricies</li>
+              <li>Vestibulum laoreet porttitor sem</li>
+              <li>Ac tristique libero volutpat at</li>
+            </ul>
+          </li>
+          <li>Faucibus porta lacus fringilla vel</li>
+          <li>Aenean sit amet erat nunc</li>
+          <li>Eget porttitor lorem</li>
+        </ul>
+
+  <div class="highlight">
+    <pre><code class="language-html" data-lang="html">
+    <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"list-unstyled"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;li&gt;</span>Lorem ipsum dolor sit amet<span class="nt">&lt;/li&gt;</span>
+      <span class="nt">&lt;li&gt;</span>Consectetur adipiscing elit<span class="nt">&lt;/li&gt;</span>
+      <span class="nt">&lt;li&gt;</span>Integer molestie lorem at massa<span class="nt">&lt;/li&gt;</span>
+      <span class="nt">&lt;li&gt;</span>Facilisis in pretium nisl aliquet<span class="nt">&lt;/li&gt;</span>
+      <span class="nt">&lt;li&gt;</span>Nulla volutpat aliquam velit
+        <span class="nt">&lt;ul&gt;</span>
+          <span class="nt">&lt;li&gt;</span>Phasellus iaculis neque<span class="nt">&lt;/li&gt;</span>
+          <span class="nt">&lt;li&gt;</span>Purus sodales ultricies<span class="nt">&lt;/li&gt;</span>
+          <span class="nt">&lt;li&gt;</span>Vestibulum laoreet porttitor sem<span class="nt">&lt;/li&gt;</span>
+          <span class="nt">&lt;li&gt;</span>Ac tristique libero volutpat at<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;/ul&gt;</span>
+      <span class="nt">&lt;/li&gt;</span>
+      <span class="nt">&lt;li&gt;</span>Faucibus porta lacus fringilla vel<span class="nt">&lt;/li&gt;</span>
+      <span class="nt">&lt;li&gt;</span>Aenean sit amet erat nunc<span class="nt">&lt;/li&gt;</span>
+      <span class="nt">&lt;li&gt;</span>Eget porttitor lorem<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;/ul&gt;</span>
+    </code></pre>
+  </div>
+
+
+        <hr/>
+
+        <h4 class="mt-4">Code</h4>
+
+        <p>For example, <code>&lt;section&gt;</code> should be wrapped as inline.</p>
+
+  <div class="highlight">
+    <pre><code class="language-html" data-lang="html">
+    <span class="nt">&lt;pre&gt;&lt;code&gt;</span><span class="ni">&amp;lt;</span>p<span class="ni">&amp;gt;</span>Sample text here...<span class="ni">&amp;lt;</span>/p<span class="ni">&amp;gt;</span>
+    <span class="ni">&amp;lt;</span>p<span class="ni">&amp;gt;</span>And another line of sample text here...<span class="ni">&amp;lt;</span>/p<span class="ni">&amp;gt;</span>
+    <span class="nt">&lt;/code&gt;&lt;/pre&gt;</span>
+    </code></pre>
+  </div>
+
+
+        <hr/>
+
+
+        <h4 class="mt-4">Text Alignment</h4>
+
+        <p class="text-left">Left aligned text on all viewport sizes.</p>
+        <p class="text-center">Center aligned text on all viewport sizes.</p>
+        <p class="text-right">Right aligned text on all viewport sizes.</p>
+
+        <p class="text-sm-left">Left aligned text on viewports sized SM (small) or wider.</p>
+        <p class="text-md-left">Left aligned text on viewports sized MD (medium) or wider.</p>
+        <p class="text-lg-left">Left aligned text on viewports sized LG (large) or wider.</p>
+        <p class="text-xl-left">Left aligned text on viewports sized XL (extra-large) or wider.</p>
+
+    <div class="highlight">
+    <pre><code class="language-html" data-lang="html">
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-left"</span><span class="nt">&gt;</span>Left aligned text on all viewport sizes.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-center"</span><span class="nt">&gt;</span>Center aligned text on all viewport sizes.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-right"</span><span class="nt">&gt;</span>Right aligned text on all viewport sizes.<span class="nt">&lt;/p&gt;</span>
+
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-sm-left"</span><span class="nt">&gt;</span>Left aligned text on viewports sized SM (small) or wider.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-md-left"</span><span class="nt">&gt;</span>Left aligned text on viewports sized MD (medium) or wider.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-lg-left"</span><span class="nt">&gt;</span>Left aligned text on viewports sized LG (large) or wider.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-xl-left"</span><span class="nt">&gt;</span>Left aligned text on viewports sized XL (extra-large) or wider.<span class="nt">&lt;/p&gt;</span>
+    </code></pre>
+    </div>
+
+        <hr/>
+
+        <h4 class="mt-4">Text Transform</h4>
+        <p class="text-lowercase">Lowercased text.</p>
+        <p class="text-uppercase">Uppercased text.</p>
+        <p class="text-capitalize">CapiTaliZed text.</p>
+
+    <div class="highlight">
+    <pre><code class="language-html" data-lang="html">
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-lowercase"</span><span class="nt">&gt;</span>Lowercased text.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-uppercase"</span><span class="nt">&gt;</span>Uppercased text.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-capitalize"</span><span class="nt">&gt;</span>CapiTaliZed text.<span class="nt">&lt;/p&gt;</span>
+    </code></pre>
+    </div>
+
+         <hr/>
+
+        <h4 class="mt-4">Font Weight and Italics</h4>
+        <p class="font-weight-bold">Bold text.</p>
+        <p class="font-weight-normal">Normal weight text.</p>
+        <p class="font-italic">Italic text.</p>
+
+    <div class="highlight">
+    <pre><code class="language-html" data-lang="html">
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-lowercase"</span><span class="nt">&gt;</span>Lowercased text.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-uppercase"</span><span class="nt">&gt;</span>Uppercased text.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-capitalize"</span><span class="nt">&gt;</span>CapiTaliZed text.<span class="nt">&lt;/p&gt;</span>
+    </code></pre>
+    </div>
+
+
+    <hr/>
+
+    <h4 class="mt-4">Text Justify</h4>
+    <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
+
+    <div class="highlight">
+    <pre><code class="language-html" data-lang="html">
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-justify"</span><span class="nt">&gt;</span>Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.<span class="nt">&lt;/p&gt;</span>
+    </code></pre>
+    </div>
+
+      <hr/>
+
+    <h4 class="mt-4 mb-4">Text in Card</h4>
+    <div class="card">
+    <div class="card-block text-nowrap">
+    Curabitur blandit tempus ardua ridiculus sed magna.
+    </div>
+    </div>
+
+    <div class="highlight mt-4">
+    <pre><code class="language-html" data-lang="html">
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"card"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"card-block text-nowrap"</span><span class="nt">&gt;</span>
+    Curabitur blandit tempus ardua ridiculus sed magna.
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    </code></pre>
+    </div>
+
+
+    <hr/>
+
+    <h4 class="mt-4 mb-4">Verticle Alignment</h4>
+
+    <span class="align-baseline">baseline</span>
+    <span class="align-top">top</span>
+    <span class="align-middle">middle</span>
+    <span class="align-bottom">bottom</span>
+    <span class="align-text-top">text-top</span>
+    <span class="align-text-bottom">text-bottom</span>
+
+
+    <div class="highlight">
+    <pre><code class="language-html" data-lang="html">
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"align-baseline"</span><span class="nt">&gt;</span>baseline<span class="nt">&lt;/span&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"align-top"</span><span class="nt">&gt;</span>top<span class="nt">&lt;/span&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"align-middle"</span><span class="nt">&gt;</span>middle<span class="nt">&lt;/span&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"align-bottom"</span><span class="nt">&gt;</span>bottom<span class="nt">&lt;/span&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"align-text-top"</span><span class="nt">&gt;</span>text-top<span class="nt">&lt;/span&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"align-text-bottom"</span><span class="nt">&gt;</span>text-bottom<span class="nt">&lt;/span&gt;</span>
+    </code></pre>
+    </div>
+
+ 
+    
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+</div> <!--End Container-->
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
+
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+
+
+
+
+
+
+
+</body>
+
+</html>
