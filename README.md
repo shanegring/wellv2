@@ -7,18 +7,18 @@ Our goal is to drive greater efficiency through well-defined, reusable component
 
 The Scope: 
 For each component, we’ll determine how to deploy, where to use, articulate the purpose for creation. Component types to be analyzed: 
-⋅⋅*Colors
-⋅⋅*Logos
-⋅⋅*Typography, including rules around weighting, sizing, vertical alignment
-⋅⋅* Iconography
-⋅⋅*Templates
-⋅⋅*Grid/Layouts
-⋅⋅*Interactions
-⋅⋅*Animations
-⋅⋅*Accessibility
-⋅⋅*Social
-⋅⋅*Email
-⋅⋅*Forms
-⋅⋅*Illustrations
-⋅⋅*Patterns
++ Colors
++ Logos
++ Typography, including rules around weighting, sizing, vertical alignment
++ Iconography
++ Templates
++ Grid/Layouts
++ Interactions
++ Animations
++ Accessibility
++ Social
++ Email
++ Forms
++ Illustrations
++ Patterns
 
