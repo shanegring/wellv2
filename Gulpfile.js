@@ -3,6 +3,7 @@ var gulp        = require('gulp')
   , gulpHelp    = require('gulp-help')
   , sass        = require('gulp-sass')
   , sourcemaps  = require('gulp-sourcemaps')
+  , sprite      = require('gulp-svg-sprite')
   , browserSync = require('browser-sync').create()
 
 gulp = gulpHelp(gulp)
@@ -13,12 +14,16 @@ gulp = gulpHelp(gulp)
 
 var src = {
     scss     : 'style/scss/**/*.scss'
-  , scssMain : 'style/scss/main.scss',
+  , scssMain : 'style/scss/main.scss'
+  , svg      : 'assets/svg/**/*.svg'
 }
 
 var build = {
     css : 'build/css'
+    , js  : 'build/js'    
+    , svg : 'build/svg'
 }
+
 
 
 //------------------------------------------------------------------------------
@@ -33,8 +38,28 @@ gulp.task('scss', 'compiles scss', function() {
     .pipe(browserSync.stream())
 })
 
+gulp.task('svg', function () {
+  config = {
+    shape         : {
+      dest        : './raw'
+    },
+    mode          : {
+      inline      : true,
+      "symbol"    : {
+        "sprite"  : "styleguide.svg"
+      }
+    }
+  }
 
-gulp.task('build', ['scss'])
+gulp.src(src.svg)
+      .pipe(sprite(config)
+        .on('error', function(e){ console.error(e) }))
+      .pipe(gulp.dest(build.svg))
+})
+
+gulp.task('build', ['scss', 'svg'])
+
+
 
 //------------------------------------------------------------------------------
 // Watch tasks
@@ -42,6 +67,7 @@ gulp.task('build', ['scss'])
 // Watch All the Things
 gulp.task('watch', ['build'], function() {
   gulp.watch(src.scss, ['scss'])
+  gulp.watch(src.svg + '**/*.svg', ['svg'])
 })
 
 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="css/style3.css"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+    <g id="Nourishment" stroke="none" stroke-width="0" fill="none" fill-rule="evenodd">
+        <g id="Nourishment">
+            <path d="M49.575131,99.3738693 C22.2560543,99.3738693 0.109332,77.1281407 0.109332,49.6869347 C0.109332,22.2457286 22.2560543,0 49.575131,0 C76.8942078,0 99.04093,22.2457286 99.04093,49.6869347 C99.04093,77.1281407 76.8942078,99.3738693 49.575131,99.3738693 Z" id="Fill-1" fill="#0A7B98" fill-rule="nonzero"></path>
+            <path class="star" d="M49.4757762,52.3381407 C49.4757762,52.3381407 51.0366376,32.4929146 45.0168154,24.8783417" id="Stroke-3" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path class="star3" d="M49.5661761,45.3333166 C49.872345,38.750402 42.7063903,34.3825628 35.9081385,34.7519095 C36.3368751,39.7348241 41.4201805,46.3177387 49.5661761,45.3333166 Z" id="Stroke-5" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path class="star3" d="M49.3369496,37.120201 C47.8251152,30.7076382 54.0635581,25.0845226 60.8127828,24.1855276 C61.3085564,29.1624121 57.5234675,36.5754774 49.3369496,37.120201 Z" id="Stroke-7" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          
+            <polygon class="star2" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="59.8153323 74.0825628 39.3350297 74.0825628 36.6805648 60.2282915 62.4697973 60.2282915"></polygon>
+            <path class="star" d="M56.0974305,60.2284925 L53.4429656,74.0827638" id="Stroke-11" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          
+            <polygon class="star2" stroke="#FFFFFF" stroke-width="2.184" stroke-linecap="round" stroke-linejoin="round" points="32.6595457 53.5043216 66.4907163 53.5043216 65.1509769 60.2284422 33.9992851 60.2284422"></polygon>
+        </g>
+    </g>
+</svg>
