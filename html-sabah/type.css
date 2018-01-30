@@ -1,14 +1,42 @@
 
 
-body, h1, h2, h3, h4, h5, h6, th, td, input, textarea, select, option, legend, fieldset, button, optgroup  {
-font-family: museo-sans, sans-serif;
-font-style: normal;
+h1, h2, h3, h4, h5, h6, legend, fieldset, select, label, option, optgroup  {
+  font-family: museo-sans, sans-serif;
+  font-style: normal;
+}
+
+body, th, td, input, textarea {
+  font-family: 'Pt serif', serif; 
+  font-weight: 400;  
+}
+
+button {
+  font-family: museo-sans, sans-serif;  
+}
+
+
+.badge {
+  font-family: museo-sans, sans-serif;  
+} 
+
+
+mark {
+  background-color: #A6D7AC;
+  color: white;
 }
 
 body {
   font-size: 100%;
 	max-width: 100%;
 overflow-x: hidden;	
+}
+
+.text-muted {
+  color: #ccc;
+}
+
+.small, small {
+  font-size: 75%;
 }
 
 .nooverflow{
@@ -36,7 +64,7 @@ body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.5em;
   /* 2x body copy size = 32px */
   line-height: 1.25;
   /* 45px / 36px */
@@ -44,7 +72,7 @@ h1 {
 
 @media (min-width: 43.75em) {
   h1 {
-    font-size: 2.5em;
+    font-size: 2.75em;
     /* 2.5x body copy size = 40px */
     line-height: 1.125;
   }
@@ -52,7 +80,7 @@ h1 {
 
 @media (min-width: 56.25em) {
   h1 {
-    font-size: 2.5em;
+    font-size: 2.75em;
     /* 3x body copy size = 48px */
     line-height: 1.25;
     /* keep to a multiple of the 20px line height and something more appropriate for display headings */
@@ -60,7 +88,8 @@ h1 {
 }
 
 h2 {
-  font-size: 1.625em;
+  font-size: 2em;
+  font-weight: 700;
   /* 1.625x body copy size = 26px */
   line-height: 1.15384615;
   /* 30px / 26px */
@@ -68,7 +97,7 @@ h2 {
 
 @media (min-width: 43.75em) {
   h2 {
-    font-size: 2em;
+    font-size: 2.25em;
     /* 2x body copy size = 32px */
     line-height: 1.25;
   }
@@ -83,7 +112,9 @@ h2 {
 }
 
 h3 {
-  font-size: 1.175em;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
   /* 1.375x body copy size = 22px */
   line-height: 1.2;
   /* 25px / 22px */
@@ -91,7 +122,7 @@ h3 {
 
 @media (min-width: 43.75em) {
   h3 {
-    font-size: 1.5em;
+    font-size: 1.3em;
     /* 1.5x body copy size = 24px */
     line-height: 1.25;
   }
@@ -99,51 +130,51 @@ h3 {
 
 @media (min-width: 56.25em) {
   h3 {
-    font-size: 1.55em;
+    font-size: 1.3em;
     /* 1.75x body copy size = 28px */
     line-height: 1.583;
   }
 }
 
 h4 {
-  font-size: 1.125em;
+  font-size: 1.4em;
+  font-weight: 700;
   /* 1.125x body copy size = 18px */
   line-height: 1.11111111;
 }
 
 @media (min-width: 43.75em) {
   h4 {
-    line-height: 1.22222222;
+    line-height: 1.4;
     /* (22px / 18px */
   }
 }
 
 h5 {
   font-size: 1em;
+  text-transform: uppercase;
   /* 1.125x body copy size = 18px */
   line-height: 1.0;
 }
 
 
 h6 {
-  font-size: .6em;
+  font-size: .8em;
   /* 1.125x body copy size = 18px */
   line-height: 1em;
 }
 
 @media (min-width: 43.75em) {
   h6 {
-    font-size: 1em;
+    font-size: 0.9em;
     line-height: 1em;
     /* (22px / 18px */
   }
 }
 
 p {
-  font-size: .8rem;
-
-  line-height: 1rem;
-  font-family: georgia,"times new roman",times,serif;
+  font-size: .9rem;
+  line-height: 1.4rem;
 }
 
 @media (min-width: 43.75em) {
@@ -158,22 +189,28 @@ p {
 
 
 
+.display-1, .display-2, .display-3, .display-4 {
+  font-family: museo-sans, sans-serif;
+  line-height: 1.25;
+} 
 
+@media (min-width: 43.75em) {
+    .display-1, .display-2, .display-3, .display-4 {    
+      line-height: 1.125;}
+  }
 
-
-
-blockquote {
-  font-size: 1.25em;
+.blockquote, blockquote {
+  font-size: 1em;
   /* 20px / 16px */
   line-height: 1.25;
   /* 25px / 20px */
 }
 
 @media (min-width: 43.75em) {
-  blockquote {
-    font-size: 1.5em;
+  .blockquote {
+    font-size: 1.1em;
     /* 24px / 16px = */
-    line-height: 1.45833333;
+    line-height: 1.50833333;
     /* 35px / 24px */
   }
 }
