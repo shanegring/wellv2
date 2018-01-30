@@ -192,17 +192,31 @@ a:focus, a:hover {
   color: #fff;
 }
 
-.badge-silver {
-  background-color: #AFBEC0;
+.badge-default {
+    background-color: #636c72;
 }
 
-.badge-gold {
-background-color: #C6B677;
+.badge-primary {
+    background-color: #429DB5;
 }
 
-.badge-blue {
-background-color: #49A1B8;
+.badge-success {
+    background-color: #A6D7AC;
 }
+
+.badge-info {
+    background-color: #106680;
+}
+
+.badge-warning {
+    background-color: #DB7A13;
+}
+
+.badge-danger {
+    background-color: #C40B07;
+}
+
+
 
 
 .badge-notification {
