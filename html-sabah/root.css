@@ -314,7 +314,7 @@ a:focus, a:hover {
 
 .badge {
   border-radius: 0;
-  padding: .4em .6em;
+  padding: .6em .8em;
   font-weight: 500;
   color: #fff;
 }
