@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="css/style3.css" ?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+   
+    <g id="Air" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Air">
+            <path d="M99.095596,49.6869347 C99.095596,77.1281407 76.9488738,99.3738693 49.629797,99.3738693 C22.3107203,99.3738693 0.163998,77.1281407 0.163998,49.6869347 C0.163998,22.2457286 22.3107203,0 49.629797,0 C76.9488738,0 99.095596,22.2457286 99.095596,49.6869347" id="Fill-1" fill="currentColor" fill-rule="nonzero"></path>
+          
+            <path class="star" d="M54.8540301,39.5454271 C54.8540301,34.3419095 59.0533476,30.1233166 64.2342068,30.1233166 C69.4145658,30.1233166 73.6138833,34.3419095 73.6138833,39.5454271 C73.6138833,44.7489447 69.1584244,48.9675377 63.9780655,48.9675377 L21.251986,48.9675377" id="Stroke-3" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path class="star" d="M40.57515,43.8794472 C40.57515,41.069397 42.8429015,38.7915075 45.6404454,38.7915075 C48.4379893,38.7915075 50.7057408,41.069397 50.7057408,43.8794472 C50.7057408,46.6894975 48.2994128,48.9673869 45.5023692,48.9673869 L34.8224752,48.9673869" id="Stroke-5" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path class="star" d="M50.7584199,60.8755779 C50.7584199,64.161005 53.4098831,66.8248241 56.6811885,66.8248241 C59.9519936,66.8248241 62.6034569,64.161005 62.6034569,60.8755779 C62.6034569,57.5901508 59.7904044,54.9263317 56.519099,54.9263317 L31.1586032,54.9263317" id="Stroke-7" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="css/style3.css" ?>
+<svg width="100px" height="100px" viewBox="0 0 99 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+    <g id="Light" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Light">
+            <path class="star2" d="M49.465799,99.3738693 C22.1467223,99.3738693 0,77.1281407 0,49.6869347 C0,22.2457286 22.1467223,0 49.465799,0 C76.7848758,0 98.931598,22.2457286 98.931598,49.6869347 C98.931598,77.1281407 76.7848758,99.3738693 49.465799,99.3738693 Z" id="Fill-1" fill="currentColor" fill-rule="nonzero"></path>
+            <path class="star2" d="M34.8114116,49.6447236 C34.8114116,40.5623116 42.1414569,33.198995 51.1839472,33.198995 C60.2259373,33.198995 67.5559826,40.5623116 67.5559826,49.6447236 C67.5559826,58.7271357 60.2259373,66.0904523 51.1839472,66.0904523 C42.1414569,66.0904523 34.8114116,58.7271357 34.8114116,49.6447236 Z" id="Stroke-3" stroke="#FFFFFF" stroke-width="2"></path>
+            <path class="star2" d="M62.2201879,49.6447236 C62.2201879,57.8170854 56.284412,64.5939698 48.5081205,65.8708543 C49.3745987,66.0130653 50.2625887,66.0904523 51.1685887,66.0904523 C60.2110791,66.0904523 67.5411244,58.7271357 67.5411244,49.6447236 C67.5411244,40.5623116 60.2110791,33.198995 51.1685887,33.198995 C50.2625887,33.198995 49.3745987,33.2763819 48.5081205,33.418593 C56.284412,34.6954774 62.2201879,41.4723618 62.2201879,49.6447236 Z" id="Stroke-5" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          
+            <path class="star3" d="M51.1837471,66.9710553 L51.1837471,76.8650251" id="Stroke-7" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path class="star3" d="M51.1837471,32.318392 L51.1837471,22.4244221" id="Stroke-9" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path class="star3" d="M42.5591374,34.6396985 L37.6339193,26.0708543" id="Stroke-11" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path class="star3" d="M36.245503,40.9815578 L27.7147951,36.0343216" id="Stroke-13" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path class="star3" d="M33.9345277,49.6447236 L24.0845917,49.6447236" id="Stroke-15" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path class="star3" d="M36.245503,58.3078894 L27.7147951,63.2551256" id="Stroke-17" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path class="star3" d="M42.5591374,64.6497487 L37.6339193,73.218593" id="Stroke-19" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>
