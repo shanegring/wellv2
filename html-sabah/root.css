@@ -389,7 +389,11 @@ border-radius: 0rem;
 .input-group-lg>.input-group-addon, 
 .input-group-lg>.input-group-btn>.input-group-addon.btn {
   border-radius: 0;
+}
 
+ 
+input:focus, textarea:focus {
+  border: 1px solid #429DB5;
 }
 
 .card-header {
