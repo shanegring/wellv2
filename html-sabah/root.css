@@ -382,9 +382,12 @@ border-radius: 0rem;
   font-weight: 100;
 }
 
-
 .card-header {
   background-color: #E8ECEF;
+}
+
+.card-link {
+  color: #429DB5;
 }
 
 /* Inputs */
@@ -398,7 +401,15 @@ border-radius: 0rem;
   border-radius: 0;
 }
 
- 
+.form-control-plaintext {
+  padding: .5rem;
+  border: 1px solid #ebebeb;
+}
+
+.form-control, input, textarea{
+  border-radius: none;
+}
+
 input:focus, textarea:focus {
   border: 1px solid #429DB5;
 }
