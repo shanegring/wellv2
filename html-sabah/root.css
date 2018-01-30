@@ -331,24 +331,29 @@ margin-left: .4em;
     background-color: #636c72;
 }
 
-.badge-primary {
+.badge-primary, .card-primary {
     background-color: #429DB5;
 }
 
-.badge-success {
+.badge-success, .card-success {
     background-color: #A6D7AC;
 }
 
-.badge-info {
+.badge-info, .card-info {
     background-color: #106680;
 }
 
-.badge-warning {
+.badge-warning, .card-warning {
     background-color: #DB7A13;
 }
 
-.badge-danger {
+.badge-danger, .card-danger {
     background-color: #C40B07;
+}
+
+
+.card-primary, .card-success, .card-info, .card-warning, .card-danger {
+    border: none;
 }
 
 
@@ -380,7 +385,9 @@ margin-left: .4em;
   border-color: #C40B07;  /*red*/ 
 }
 
-
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  box-shadow: none;
+}
 
 
 .w-20 {
