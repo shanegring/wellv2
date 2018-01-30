@@ -321,9 +321,9 @@ a:focus, a:hover {
 
 
 .badge-notification {
-border-radius: 8px;
-padding: .4em .8em;
-margin-left: .4em;
+  border-radius: 8px;
+  padding: .4em .8em;
+  margin-left: .4em;
 }
 
 
@@ -385,8 +385,12 @@ margin-left: .4em;
   border-color: #C40B07;  /*red*/ 
 }
 
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-  box-shadow: none;
+.nav-pills .nav-link.active {
+  background-color: #429DB5;
+}
+
+.nav-tabs .nav-link.active{
+  box-shadow: 0px;
 }
 
 
