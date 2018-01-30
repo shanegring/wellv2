@@ -159,14 +159,14 @@ h5 {
 
 
 h6 {
-  font-size: .6em;
+  font-size: .8em;
   /* 1.125x body copy size = 18px */
   line-height: 1em;
 }
 
 @media (min-width: 43.75em) {
   h6 {
-    font-size: 1em;
+    font-size: 0.9em;
     line-height: 1em;
     /* (22px / 18px */
   }
@@ -174,8 +174,7 @@ h6 {
 
 p {
   font-size: .9rem;
-
-  line-height: 1rem;
+  line-height: 1.4rem;
 }
 
 @media (min-width: 43.75em) {
