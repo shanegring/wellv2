@@ -10,6 +10,9 @@ body, th, td, input, textarea {
   font-weight: 400;  
 }
 
+button {
+  font-family: museo-sans, sans-serif;  
+}
 
 
 .badge {

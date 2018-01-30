@@ -91,8 +91,11 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 0.05rem;
-  font-family: museo-sans, sans-serif;
+  font-family: Roboto, sans-serif;
+
 }
+
+
 
 .btn.focus, .btn:focus {
 box-shadow: 0 0 0 2px rgba(73,161,184,.25)
