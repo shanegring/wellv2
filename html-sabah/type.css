@@ -11,8 +11,15 @@ body, th, td, input, textarea, select, option {
 }
 
 button {
-  font-family: 'Pt serif', sans-serif; 
+  font-family: 'Roboto', sans-serif; 
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
 }
+
+.badge {
+  font-family: museo-sans, sans-serif;  
+} 
 
 
 mark {
