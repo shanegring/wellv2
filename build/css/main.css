@@ -9905,3 +9905,43 @@ label {
 .badge-danger {
   background-color: #C40B07;
 }
+
+.well--air {
+  color: #144249;
+}
+
+.well--water {
+  color: #0B667F;
+}
+
+.well--nourishment {
+  color: #0A7B98;
+}
+
+.well--light {
+  color: #3C9EB7;
+}
+
+.well--fitness {
+  color: #92CCD4;
+}
+
+.well--comfort {
+  color: #A8D6AD;
+}
+
+.well--mind {
+  color: #306B5E;
+}
+
+.well--sound {
+  color: #63AA85;
+}
+
+.well--community {
+  color: #23483E;
+}
+
+.well--black {
+  color: #000;
+}

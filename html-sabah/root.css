@@ -331,6 +331,21 @@ a:focus, a:hover {
     background-color: #636c72;
 }
 
+
+.badge-gold {
+    background-color: #C48E29;
+}
+
+.badge-silver {
+    background-color: #ccc;
+}
+
+.badge-platinum {
+    background-color: #555;
+}
+
+
+
 .badge-primary, .card-primary {
     background-color: #429DB5;
 }
@@ -383,10 +398,6 @@ a:focus, a:hover {
 
 .card-outline-danger {
   border-color: #C40B07;  /*red*/ 
-}
-
-.nav-pills .nav-link.active {
-  background-color: #429DB5;
 }
 
 .nav-tabs .nav-link.active{
@@ -460,6 +471,10 @@ border-radius: 0rem;
 
 .form-control, input, textarea{
   border-radius: none;
+}
+
+.form-control:focus {
+  border-color: #429DB5;
 }
 
 input:focus, textarea:focus {
@@ -580,7 +595,7 @@ table {
     color: #49A1B8;
     background-color: #fff;
     border-color: transparent;
-    box-shadow: 0 2px 4px 0 rgba(207,207,207,0.50);
+    box-shadow: none;
 }
 
 .nav-tabs {
