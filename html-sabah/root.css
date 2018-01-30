@@ -198,13 +198,13 @@ box-shadow: 0 0 0 2px rgba(73,161,184,.25)
 
 .btn-outline-secondary {
   background-color: transparent;
-  border-color: #BBBBBB;
-  color: #BBBBBB;
+  border-color: #ccc;
+  color: #ccc;
 }
 
 .btn-outline-secondary:hover {
-   background-color: #BBBBBB;
-   border-color: #BBBBBB;
+   background-color: #ccc;
+   border-color: #ccc;
    color: #fff;
 }
 
@@ -262,7 +262,7 @@ box-shadow: 0 0 0 2px rgba(73,161,184,.25)
 
 .btn-outline-light:hover {
   color: #fff;
-  background-color: #BBBBBB;
+  background-color: #ccc;
 }
 
 
@@ -319,6 +319,14 @@ a:focus, a:hover {
   color: #fff;
 }
 
+
+.badge-notification {
+border-radius: 8px;
+padding: .4em .8em;
+margin-left: .4em;
+}
+
+
 .badge-default {
     background-color: #636c72;
 }
@@ -345,16 +353,35 @@ a:focus, a:hover {
 
 
 
+/* Cards */
 
-.badge-notification {
-border-radius: 8px;
-padding: .4em .8em;
-margin-left: .4em;
+
+.card-outline-primary {
+  border-color: #429DB5; /*blue*/
+}
+
+.card-outline-secondary {
+  border-color: #ccc; /*grey*/  
+}
+
+.card-outline-success {
+  border-color: #A6D7AC; /*light green*/
+}
+
+.card-outline-info {
+  border-color:  #106680; /*dark blue*/ 
+}
+
+.card-outline-warning {
+  border-color: #DB7A13; /*orange*/ 
+}
+
+.card-outline-danger {
+  border-color: #C40B07;  /*red*/ 
 }
 
 
 
-/* Cards */
 
 .w-20 {
   width: 20rem;
@@ -365,7 +392,6 @@ margin-left: .4em;
 }
 
 .card {
-border: 0px solid rgba(255,255,255,.125);
 border-radius: 0rem;
 }
 
@@ -376,6 +402,14 @@ border-radius: 0rem;
 
 .card .card-title{
   font-weight: 700;
+}
+
+.card-block {
+  padding: 2rem;
+}
+
+.card-primary {
+  background-color: #429DB5;
 }
 
 .card .card-text {
@@ -389,6 +423,13 @@ border-radius: 0rem;
 .card-link {
   color: #429DB5;
 }
+
+
+
+
+
+
+
 
 /* Inputs */
 .input-group-addon {
