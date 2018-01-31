@@ -485,7 +485,11 @@ border-radius: 0rem;
 }
 
 .form-group {
-  margin-bottom: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.fileupload {
+  font-family: museo-sans, sans-serif;
 }
 
 .form-control, input, textarea{
