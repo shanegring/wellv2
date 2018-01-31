@@ -9906,6 +9906,26 @@ label {
   background-color: #C40B07;
 }
 
+.icon {
+  fill: #000;
+}
+
+.icon-white {
+  fill: #fff;
+}
+
+.icon-gray-light {
+  fill: #F6F7F9;
+}
+
+.icon-gray-dark {
+  fill: #53565A;
+}
+
+.icon-well-blue {
+  fill: #419CB4;
+}
+
 .well--air {
   color: #144249;
 }
