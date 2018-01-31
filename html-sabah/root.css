@@ -467,8 +467,23 @@ border-radius: 0rem;
 
 
 
+.profile img{
+  border-radius: 100%;
+}
+
+.signup {
+  color: #aaa;
+}
+
 
 /* Inputs */
+
+
+.searchbutton {
+  z-index: 33333;
+  display: inline;
+}
+
 .input-group-addon {
   border-radius: 0;
 }
