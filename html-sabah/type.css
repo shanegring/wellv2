@@ -137,24 +137,23 @@ h3 {
 }
 
 h4 {
-  font-size: 1.4em;
-  font-weight: 700;
+  font-size: 1.55em;
   /* 1.125x body copy size = 18px */
   line-height: 1.11111111;
 }
 
 @media (min-width: 43.75em) {
   h4 {
-    line-height: 1.4;
+    line-height: 1.3;
     /* (22px / 18px */
   }
 }
 
 h5 {
-  font-size: 1em;
+  font-size: 1.05em;
   text-transform: uppercase;
   /* 1.125x body copy size = 18px */
-  line-height: 1.0;
+  line-height: 1.2;
 }
 
 
@@ -167,7 +166,7 @@ h6 {
 @media (min-width: 43.75em) {
   h6 {
     font-size: 0.9em;
-    line-height: 1em;
+    line-height: 1.4em;
     /* (22px / 18px */
   }
 }

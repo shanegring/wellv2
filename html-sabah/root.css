@@ -38,6 +38,11 @@ body {
 .img-frame {
   margin-left: -15px; 
   margin-right: -15px;
+  padding: 1em;
+}
+
+.articlesection {
+  padding: 1em;
 }
 
 .center {
@@ -91,6 +96,7 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 0.05rem;
+  padding: 0.5em 1em;
   font-family: Roboto, sans-serif;
 
 }
@@ -278,6 +284,7 @@ a {
 a:focus, a:hover {
    opacity: .8;
    color: #626262;
+   text-decoration: none;
  }
 
 
@@ -287,11 +294,11 @@ a:focus, a:hover {
 }
 
 .blue-link {
-  color: #49A1B8;
+  color: #429DB5;
 }
 
 .blue-link:focus, .blue-link:hover {
-  color: #49A1B8;
+  color: #106680;
 }
 
 
@@ -303,10 +310,9 @@ a:focus, a:hover {
   color: #fff;
 }
 
-.underline {
-  text-decoration: underline;
+.authorline a{
+  color: #aaa;
 }
-  
   
 
 
@@ -426,6 +432,15 @@ border-radius: 0rem;
   font-weight: 700;
 }
 
+.card-title{
+  color: #636c72;
+}
+
+.card-title:hover {
+  color:  #429DB5;
+}
+
+
 .card-block {
   padding: 2rem;
 }
@@ -467,6 +482,10 @@ border-radius: 0rem;
 .form-control-plaintext {
   padding: .5rem;
   border: 1px solid #ebebeb;
+}
+
+.form-group {
+  margin-bottom: 1.3rem;
 }
 
 .form-control, input, textarea{
