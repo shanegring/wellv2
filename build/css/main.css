@@ -9817,12 +9817,8 @@ nav {
   letter-spacing: 2px;
 }
 
-.navbar-light .navbar-nav .nav-link {
-  color: #fff;
-}
-
 .nav-link.active {
-  color: #6AB7E1;
+  color: #429DB5;
 }
 
 /*nav menu button*/
@@ -9964,4 +9960,11 @@ label {
 
 .well--black {
   color: #000;
+}
+
+.list-group-item.active {
+  z-index: 2;
+  color: #fff;
+  background-color: #429DB5;
+  border-color: #429DB5;
 }

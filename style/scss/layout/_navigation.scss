@@ -1,3 +1,7 @@
+
+@import "./abstracts/variables";
+
+
 nav {
 	background: #38138E; 
 	text-align: center;
@@ -7,12 +11,9 @@ nav {
 	letter-spacing: 2px;
 }
 
-.navbar-light .navbar-nav .nav-link {
-	color:#fff;
-}
 
 .nav-link.active {
-	color: #6AB7E1;
+	color: $well-blue;
 }
 
 /*nav menu button*/
