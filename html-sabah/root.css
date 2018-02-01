@@ -272,6 +272,21 @@ box-shadow: 0 0 0 2px rgba(73,161,184,.25)
 }
 
 
+
+.searchbutton {
+  z-index: 33333;
+  display: inline;
+  width: 15%;
+  padding: 0.3em;
+  background-color: white;
+  border: 1px solid #efefef;
+}
+
+
+
+
+
+
 /* Basic */
 
 
@@ -457,6 +472,10 @@ border-radius: 0rem;
   background-color: #E8ECEF;
 }
 
+.card-header:first-child {
+  border-radius: 0em;
+}
+
 .card-link {
   color: #429DB5;
 }
@@ -501,11 +520,6 @@ border-radius: 0rem;
 /* Inputs */
 
 
-.searchbutton {
-  z-index: 33333;
-  display: inline;
-  width: 30%;
-}
 
 .input-group-addon {
   border-radius: 0;
