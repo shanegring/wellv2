@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve">
+<g id="Guide">
+</g>
+<g id="Layer_1">
+	<circle cx="18" cy="8" r="3"/>
+	<circle cx="7" cy="11" r="3"/>
+	<circle cx="29" cy="11" r="3"/>
+	<ellipse cx="18" cy="26" rx="11" ry="5"/>
+	<path d="M11.8,19.8C11.3,17.6,9.3,16,7,16c-2.8,0-5,2.2-5,5v5h3C5,23.5,7.3,21,11.8,19.8z"/>
+	<path d="M18,19c1.9,0,3.5,0.2,5,0.5V18c0-2.8-2.2-5-5-5s-5,2.2-5,5v1.5C14.5,19.2,16.1,19,18,19z"/>
+	<path d="M29,16c-2.3,0-4.3,1.6-4.8,3.8C28.7,21,31,23.5,31,26h3v-5C34,18.2,31.8,16,29,16z"/>
+</g>
+</svg>

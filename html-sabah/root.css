@@ -463,8 +463,9 @@ border-radius: 0rem;
 
 
 
-
-
+.todolist {
+  margin-top: 2em;
+}
 
 
 .profile img{
@@ -476,12 +477,34 @@ border-radius: 0rem;
 }
 
 
+.aggregateheader {
+  height: 16em;
+  z-index: 555;
+}
+
+
+
+@media (min-width: 43.75em) {
+  .todolist {
+    margin-top: 0em;}
+
+  .aggregateheader {
+  height: 8em;
+  z-index: 555;}
+
+}
+
+
+
+
+
 /* Inputs */
 
 
 .searchbutton {
   z-index: 33333;
   display: inline;
+  width: 30%;
 }
 
 .input-group-addon {
