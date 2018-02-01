@@ -276,12 +276,15 @@ box-shadow: 0 0 0 2px rgba(73,161,184,.25)
 .searchbutton {
   z-index: 33333;
   display: inline;
-  width: 15%;
+  width: 16%;
   padding: 0.3em;
-  background-color: white;
-  border: 1px solid #efefef;
 }
 
+.searchbutton:hover {
+  background-color: #106680;
+  border: #106680;
+    width: 16%;
+}
 
 
 
