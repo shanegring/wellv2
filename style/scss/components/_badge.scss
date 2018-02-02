@@ -1,6 +1,39 @@
+
+/* Badge */
+
+.badge {
+  border-radius: 0;
+  padding: .5em .7em;
+  font-weight: 500;
+  color: #fff;
+}
+
+
+.badge-notification {
+  border-radius: 8px;
+  padding: .4em .8em;
+  margin-left: .4em;
+}
+
+
 .badge-default {
     background-color: #636c72;
 }
+
+
+.badge-gold {
+    background-color: #C48E29;
+}
+
+.badge-silver {
+    background-color: #ccc;
+}
+
+.badge-platinum {
+    background-color: #555;
+}
+
+
 
 .badge-primary {
     background-color: #429DB5;
