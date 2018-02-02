@@ -48,7 +48,7 @@ hr {
 }
 
 pre {
-  font-family: monospace, monospace;
+  font-family: serif, serif;
   font-size: 1em;
 }
 
@@ -82,7 +82,7 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
+  font-family: serif, serif;
   font-size: 1em;
 }
 
@@ -702,7 +702,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", serif;
 }
 
 code {
@@ -9256,12 +9256,12 @@ select.selectpicker {
 }
 
 h1, h2, h4, h5, h6, th, td, select, option, legend, fieldset, button, optgroup {
-  font-family: "freight-display-pro", serif;
+  font-family: "museo-sans", sans-serif;
   font-style: normal;
 }
 
 body, p, h3, input, textarea {
-  font-family: "roboto-mono", monospace;
+  font-family: "pt-serif", serif;
 }
 
 body {
@@ -9334,7 +9334,7 @@ h1 #services {
 }
 
 h2 {
-  font-family: "freight-display-pro", serif;
+  font-family: "museo-sans", sans-serif;
   font-weight: 900;
   letter-spacing: 0.5px;
   font-size: 2em;
@@ -9361,7 +9361,7 @@ h2 {
 }
 
 h3 {
-  font-family: "roboto-mono", monospace;
+  font-family: "pt-serif", serif;
   font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -9387,7 +9387,7 @@ h3 {
 }
 
 h4 {
-  font-family: "freight-display-pro", serif;
+  font-family: "museo-sans", sans-serif;
   font-weight: 700;
   font-size: 1.8em;
   letter-spacing: 0px;
@@ -9403,14 +9403,14 @@ h4 {
 }
 
 h5 {
-  font-family: "roboto-mono", monospace;
+  font-family: "pt-serif", serif;
   font-size: 1em;
   /* 1.125x body copy size = 18px */
   line-height: 1.0;
 }
 
 h6 {
-  font-family: "roboto-mono", monospace;
+  font-family: "pt-serif", serif;
   font-size: .6em;
   /* 1.125x body copy size = 18px */
   line-height: 1em;
@@ -9418,7 +9418,7 @@ h6 {
 
 @media (min-width: 769px) {
   h6 {
-    font-family: "roboto-mono", monospace;
+    font-family: "pt-serif", serif;
     font-size: 1em;
     line-height: 1em;
     /* (22px / 18px */
@@ -9426,11 +9426,11 @@ h6 {
 }
 
 .form-group {
-  font-family: "roboto-mono", monospace;
+  font-family: "pt-serif", serif;
 }
 
 p {
-  font-family: "roboto-mono", monospace;
+  font-family: "pt-serif", serif;
   font-size: 1em;
   letter-spacing: 0.5px;
   line-height: 200%;
@@ -9516,7 +9516,7 @@ mark {
 nav {
   background: #38138E;
   text-align: center;
-  font-family: "roboto-mono", monospace;
+  font-family: "pt-serif", serif;
   text-transform: uppercase;
   font-size: 1.1em;
   letter-spacing: 2px;
@@ -9565,7 +9565,7 @@ nav {
 }
 
 .welcomelist {
-  font-family: "roboto-mono", monospace;
+  font-family: "pt-serif", serif;
   font-size: 1em;
 }
 
@@ -9574,7 +9574,7 @@ nav {
 }
 
 h1 {
-  font-family: "freight-display-pro", serif;
+  font-family: "museo-sans", sans-serif;
   font-weight: 900;
   letter-spacing: 0.5px;
   font-size: 5em;
@@ -9586,7 +9586,7 @@ h1 {
 }
 
 #welcome p {
-  font-family: "roboto-mono", monospace;
+  font-family: "pt-serif", serif;
   letter-spacing: 1px;
   font-size: 1em;
   color: #fff;
@@ -9604,7 +9604,7 @@ h1 {
 
 /*BELIEFS*/
 h3 {
-  font-family: "roboto-mono", monospace;
+  font-family: "pt-serif", serif;
   font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -9642,7 +9642,7 @@ h3 {
 }
 
 h4 {
-  font-family: "freight-display-pro", serif;
+  font-family: "museo-sans", sans-serif;
   font-weight: 700;
   font-size: 1.8em;
   letter-spacing: 0.5px;
@@ -9669,7 +9669,7 @@ h4 {
 
 /*RITUALS*/
 h2 {
-  font-family: "freight-display-pro", serif;
+  font-family: "museo-sans", sans-serif;
   font-weight: 900;
   letter-spacing: 0.5px;
   font-size: 2.2em;
@@ -9721,7 +9721,7 @@ h2 {
   padding: 1.5em;
   padding-top: 9em;
   margin-left: -38%;
-  font-family: "roboto-mono", monospace;
+  font-family: "pt-serif", serif;
   font-style: italic;
   letter-spacing: 1px;
   line-height: 180%;
@@ -9787,7 +9787,7 @@ h2 {
 
 form {
   text-align: left;
-  font-family: "roboto-mono", monospace;
+  font-family: "pt-serif", serif;
   letter-spacing: 1px;
   padding-bottom: 3em;
   padding-top: 5em;
@@ -9795,7 +9795,7 @@ form {
 
 .form-group {
   padding-bottom: 1em;
-  font-family: "roboto-mono", monospace;
+  font-family: "pt-serif", serif;
 }
 
 label {
@@ -9807,7 +9807,7 @@ label {
 .function-foot {
   background: #38138E;
   color: #FFFAF0;
-  font-family: "roboto-mono", monospace;
+  font-family: "pt-serif", serif;
   letter-spacing: 1px;
   font-size: 0.8em;
   padding: 5em 3em;
@@ -9816,7 +9816,7 @@ label {
 nav {
   background: #38138E;
   text-align: center;
-  font-family: "Roboto Mono", monospace;
+  font-family: "pt-serif", serif;
   text-transform: uppercase;
   font-size: 1.1em;
   letter-spacing: 2px;
@@ -9844,7 +9844,7 @@ nav {
 .function-foot {
   background: #38138E;
   color: #FFFAF0;
-  font-family: "Roboto Mono", monospace;
+  font-family: "pt-serif", serif;
   letter-spacing: 1px;
   font-size: 0.8em;
   padding: 5em 3em;
