@@ -9883,6 +9883,37 @@ label {
   color: #38138E;
 }
 
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #49A1B8;
+}
+
+.dropdown, .dropdown-item {
+  font-family: museo-sans, sans-serif;
+}
+
+.dropdown-menu {
+  color: #292b2c;
+  background-color: white;
+  border: 0px solid rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 2px 4px 0 rgba(207, 207, 207, 0.5);
+          box-shadow: 0 2px 4px 0 rgba(207, 207, 207, 0.5);
+  border-radius: 0rem;
+}
+
+.dropdown-toggle-big::after {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 0em;
+  vertical-align: middle;
+  content: "";
+  border-top: .7em solid;
+  border-right: .7em solid transparent;
+  border-left: .7em solid transparent;
+}
+
 .badge-default {
   background-color: #636c72;
 }
