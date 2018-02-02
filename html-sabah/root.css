@@ -286,7 +286,9 @@ box-shadow: 0 0 0 2px rgba(73,161,184,.25)
     width: 16%;
 }
 
-
+.inline {
+    display: inline;
+}
 
 
 
