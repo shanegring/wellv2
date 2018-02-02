@@ -1,11 +1,11 @@
 
 
-h1, h2, h3, h4, h5, h6, legend, fieldset, select, label, option, optgroup  {
+h1, h2, h3, h4, h5, h6, legend, th, fieldset, select, label, option, optgroup  {
   font-family: museo-sans, sans-serif;
   font-style: normal;
 }
 
-body, th, td, input, textarea {
+body, td, input, textarea {
   font-family: 'Pt serif', serif; 
   font-weight: 400;  
 }
