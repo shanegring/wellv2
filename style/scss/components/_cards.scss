@@ -94,6 +94,8 @@ border-radius: 0rem;
 
 .card-header {
   background-color: #E8ECEF;
+  border-top: 1px solid rgba(0,0,0,.125);
+  border-bottom: 0px solid rgba(0,0,0,.125);
 }
 
 .card-header:first-child {
@@ -103,7 +105,6 @@ border-radius: 0rem;
 .card-link {
   color: #429DB5;
 }
-
 
 
 
