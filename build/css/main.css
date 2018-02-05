@@ -605,7 +605,6 @@ small,
 .small {
   font-size: 80%;
   font-weight: normal;
-  font-family: 'PT Serif', serif;
 }
 
 mark,
@@ -9257,14 +9256,6 @@ select.selectpicker {
   float: none;
 }
 
-h1, h2, h3, h4, h5, h6, th, td, select, option, legend, fieldset, button, optgroup {
-  font-family: "museo-sans", sans-serif;
-  font-style: normal;
-}
-
-body, p,  input, textarea {
-  font-family: 'pt-serif', serif;
-}
 
 body {
   font-size: 100%;
@@ -9301,7 +9292,6 @@ body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2
 h1 {
   font-size: 3.5em;
   line-height: 1.25;
-  font-family: 'museo-sans', sans-serif;
   font-weight: 900;
   letter-spacing: 1px;
 }
@@ -9336,7 +9326,7 @@ h1 #services {
 }
 
 h2 {
-  font-family: 'museo-sans', sans-serif;
+  font-family: "freight-display-pro", serif;
   font-weight: 900;
   letter-spacing: 0.5px;
   font-size: 2em;
@@ -9363,7 +9353,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'museo-sans', sans-serif;
+  font-family: "roboto-mono", monospace;
   font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -9389,7 +9379,12 @@ h3 {
 }
 
 h4 {
+<<<<<<< HEAD
   font-family: 'museo-sans', sans-serif;
+=======
+  font-family: "freight-display-pro", serif;
+  font-weight: 700;
+>>>>>>> 7a2a8cc976b1da7604f067c0ab19d4205641c981
   font-size: 1.8em;
   letter-spacing: 0px;
   line-height: 120%;
@@ -9404,14 +9399,14 @@ h4 {
 }
 
 h5 {
-  font-family: 'museo-sans', sans-serif;
+  font-family: "roboto-mono", monospace;
   font-size: 1em;
   /* 1.125x body copy size = 18px */
   line-height: 1.0;
 }
 
 h6 {
-  font-family: 'museo-sans', sans-serif;
+  font-family: "roboto-mono", monospace;
   font-size: .6em;
   /* 1.125x body copy size = 18px */
   line-height: 1em;
@@ -9419,7 +9414,7 @@ h6 {
 
 @media (min-width: 769px) {
   h6 {
-    font-family: 'museo-sans', sans-serif;
+    font-family: "roboto-mono", monospace;
     font-size: 1em;
     line-height: 1em;
     /* (22px / 18px */
@@ -9427,13 +9422,13 @@ h6 {
 }
 
 .form-group {
-  font-family: 'PT Serif', serif;
+  font-family: "roboto-mono", monospace;
 }
 
 p {
-  font-family: 'PT Serif', serif;
+  font-family: "roboto-mono", monospace;
   font-size: 1em;
-  letter-spacing: 0.25px;
+  letter-spacing: 0.5px;
   line-height: 200%;
 }
 
@@ -9471,12 +9466,12 @@ h1, h2, h3, h4, h5, h6, legend, th, fieldset, select, label, option, optgroup {
 }
 
 body, td, input, textarea {
-  font-family: 'PT Serif', serif;
+  font-family: 'Pt serif', serif;
   font-weight: 400;
 }
 
 button {
-  font-family: Roboto, sans-serif;
+  font-family: museo-sans, sans-serif;
 }
 
 .badge {
@@ -9744,8 +9739,10 @@ mark {
 nav {
   background: #38138E;
   text-align: center;
-  font-family: 'PT Serif', serif;
+  font-family: "roboto-mono", monospace;
+  text-transform: uppercase;
   font-size: 1.1em;
+  letter-spacing: 2px;
 }
 
 .navbar-nav .nav-link {
@@ -9791,7 +9788,7 @@ nav {
 }
 
 .welcomelist {
-  font-family: 'PT Serif', serif;
+  font-family: "roboto-mono", monospace;
   font-size: 1em;
 }
 
@@ -9800,7 +9797,7 @@ nav {
 }
 
 h1 {
-  font-family: 'museo-sans', sans-serif;
+  font-family: "freight-display-pro", serif;
   font-weight: 900;
   letter-spacing: 0.5px;
   font-size: 5em;
@@ -9812,8 +9809,8 @@ h1 {
 }
 
 #welcome p {
-  font-family: 'PT Serif', serif;
-  letter-spacing: 0.5px;
+  font-family: "roboto-mono", monospace;
+  letter-spacing: 1px;
   font-size: 1em;
   color: #fff;
 }
@@ -9830,7 +9827,6 @@ h1 {
 
 /*BELIEFS*/
 h3 {
-  font-family: 'museo-sans', sans-serif;
   font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -9868,7 +9864,12 @@ h3 {
 }
 
 h4 {
+<<<<<<< HEAD
   font-family: "museo-sans", sans-serif;
+=======
+  font-family: "freight-display-pro", serif;
+  font-weight: 700;
+>>>>>>> 7a2a8cc976b1da7604f067c0ab19d4205641c981
   font-size: 1.8em;
   letter-spacing: 0.5px;
   line-height: 120%;
@@ -9892,6 +9893,7 @@ h4 {
   /* Standard syntax */
 }
 
+<<<<<<< HEAD
 /*RITUALS*/
 h2 {
   font-family: "museo-sans", sans-serif;
@@ -10095,6 +10097,8 @@ body {
 .h-15 {
   height: 15rem;
 }
+=======
+>>>>>>> 7a2a8cc976b1da7604f067c0ab19d4205641c981
 
 /* A-Spot */
 .caption {
@@ -10213,6 +10217,7 @@ nav {
   color: #429DB5;
 }
 
+<<<<<<< HEAD
 /*nav menu button*/
 .navbar-toggler {
   border: none;
@@ -10283,6 +10288,8 @@ label {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+=======
+>>>>>>> 7a2a8cc976b1da7604f067c0ab19d4205641c981
 
 /* Inputs */
 .input-group-addon {
