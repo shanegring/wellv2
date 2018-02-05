@@ -537,7 +537,6 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-family: inherit;
-  font-weight: 500;
   line-height: 1.1;
   color: inherit;
 }
@@ -9391,7 +9390,6 @@ h3 {
 
 h4 {
   font-family: 'museo-sans', sans-serif;
-  font-weight: 700;
   font-size: 1.8em;
   letter-spacing: 0px;
   line-height: 120%;
@@ -9871,7 +9869,6 @@ h3 {
 
 h4 {
   font-family: "museo-sans", sans-serif;
-  font-weight: 700;
   font-size: 1.8em;
   letter-spacing: 0.5px;
   line-height: 120%;
@@ -10022,7 +10019,7 @@ form {
 }
 
 .form-group {
-  padding-bottom: 1em;
+  padding-bottom: 0.5em;
   font-family: 'PT Serif', serif;
 
 }
@@ -10277,9 +10274,6 @@ form {
   letter-spacing: 1px;
 }
 
-.form-group {
-  padding-bottom: 1em;
-}
 
 input {
   font-size: 0.8em;
@@ -10308,9 +10302,6 @@ label {
   border: 1px solid #ebebeb;
 }
 
-.form-group {
-  margin-bottom: 1rem;
-}
 
 .fileupload {
   font-family: museo-sans, sans-serif;
