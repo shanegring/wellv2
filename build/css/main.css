@@ -401,11 +401,13 @@ blockquote {
 a {
   color: #0275d8;
   text-decoration: none;
+  cursor: pointer;
 }
 
 a:focus, a:hover {
   color: #014c8c;
   text-decoration: underline;
+  cursor: pointer;  
 }
 
 a:not([href]):not([tabindex]) {
@@ -9256,13 +9258,13 @@ select.selectpicker {
   float: none;
 }
 
-h1, h2, h4, h5, h6, th, td, select, option, legend, fieldset, button, optgroup {
+h1, h2, h3, h4, h5, h6, th, td, select, option, legend, fieldset, button, optgroup {
   font-family: "museo-sans", sans-serif;
   font-style: normal;
 }
 
-body, p, h3, input, textarea {
-  font-family: 'PT Serif', serif;
+body, p,  input, textarea {
+  font-family: 'pt-serif', serif;
 }
 
 body {
@@ -9830,7 +9832,7 @@ h1 {
 
 /*BELIEFS*/
 h3 {
-  font-family: 'PT Serif', serif;
+  font-family: 'museo-sans', sans-serif;
   font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -10015,8 +10017,8 @@ form {
   text-align: left;
   font-family: 'PT Serif', serif;
   letter-spacing: 0.25px;
-  padding-bottom: 3em;
-  padding-top: 5em;
+  padding-bottom: 1em;
+  padding-top: 1em;
 }
 
 .form-group {
@@ -10273,8 +10275,6 @@ a .nav-link {
 form {
   text-align: left;
   letter-spacing: 1px;
-  padding-bottom: 3em;
-  padding-top: 5em;
 }
 
 .form-group {
