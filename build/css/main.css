@@ -604,6 +604,7 @@ small,
 .small {
   font-size: 80%;
   font-weight: normal;
+  font-family: 'PT Serif', serif;
 }
 
 mark,
@@ -9261,7 +9262,7 @@ h1, h2, h4, h5, h6, th, td, select, option, legend, fieldset, button, optgroup {
 }
 
 body, p, h3, input, textarea {
-  font-family: 'pt-serif', serif;
+  font-family: 'PT Serif', serif;
 }
 
 body {
@@ -9426,13 +9427,13 @@ h6 {
 }
 
 .form-group {
-  font-family: "pt-serif", serif;
+  font-family: 'PT Serif', serif;
 }
 
 p {
-  font-family: "pt-serif", serif;
+  font-family: 'PT Serif', serif;
   font-size: 1em;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.25px;
   line-height: 200%;
 }
 
@@ -9470,12 +9471,12 @@ h1, h2, h3, h4, h5, h6, legend, th, fieldset, select, label, option, optgroup {
 }
 
 body, td, input, textarea {
-  font-family: 'Pt serif', serif;
+  font-family: 'PT Serif', serif;
   font-weight: 400;
 }
 
 button {
-  font-family: museo-sans, sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 .badge {
@@ -9743,10 +9744,8 @@ mark {
 nav {
   background: #38138E;
   text-align: center;
-  font-family: "pt-serif", monospace;
-  text-transform: uppercase;
+  font-family: 'PT Serif', serif;
   font-size: 1.1em;
-  letter-spacing: 2px;
 }
 
 .navbar-nav .nav-link {
@@ -9792,7 +9791,7 @@ nav {
 }
 
 .welcomelist {
-  font-family: "pt-serif", monospace;
+  font-family: 'PT Serif', serif;
   font-size: 1em;
 }
 
@@ -9801,7 +9800,7 @@ nav {
 }
 
 h1 {
-  font-family: "museo-sans", sans-serif;
+  font-family: 'museo-sans', sans-serif;
   font-weight: 900;
   letter-spacing: 0.5px;
   font-size: 5em;
@@ -9813,8 +9812,8 @@ h1 {
 }
 
 #welcome p {
-  font-family: "pt-serif", monospace;
-  letter-spacing: 1px;
+  font-family: 'PT Serif', serif;
+  letter-spacing: 0.5px;
   font-size: 1em;
   color: #fff;
 }
@@ -9831,7 +9830,7 @@ h1 {
 
 /*BELIEFS*/
 h3 {
-  font-family: "pt-serif", monospace;
+  font-family: 'PT Serif', serif;
   font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -9948,7 +9947,7 @@ h2 {
   padding: 1.5em;
   padding-top: 9em;
   margin-left: -38%;
-  font-family: "pt-serif", monospace;
+  font-family: 'PT Serif', serif;
   font-style: italic;
   letter-spacing: 1px;
   line-height: 180%;
@@ -10014,15 +10013,16 @@ h2 {
 
 form {
   text-align: left;
-  font-family: "pt-serif", monospace;
-  letter-spacing: 1px;
+  font-family: 'PT Serif', serif;
+  letter-spacing: 0.25px;
   padding-bottom: 3em;
   padding-top: 5em;
 }
 
 .form-group {
   padding-bottom: 1em;
-  font-family: "pt-serif", monospace;
+  font-family: 'PT Serif', serif;
+
 }
 
 label {
@@ -10034,8 +10034,8 @@ label {
 .function-foot {
   background: #38138E;
   color: #FFFAF0;
-  font-family: "pt-serif", monospace;
-  letter-spacing: 1px;
+  font-family: 'PT Serif', serif;
+  letter-spacing: 0.25px;
   font-size: 0.8em;
   padding: 5em 3em;
 }
@@ -10265,8 +10265,7 @@ a .nav-link {
 .function-foot {
   background: #38138E;
   color: #FFFAF0;
-  font-family: "pt-serif", monospace;
-  letter-spacing: 1px;
+  font-family: 'PT Serif', serif;
   font-size: 0.8em;
   padding: 5em 3em;
 }
@@ -10417,7 +10416,7 @@ input:focus, textarea:focus {
   font-weight: 700;
   letter-spacing: 0.05rem;
   padding: 0.5em 1em;
-  font-family: pt-serif, sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 .btn.focus, .btn:focus {
