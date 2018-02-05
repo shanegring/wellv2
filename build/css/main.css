@@ -9473,6 +9473,10 @@ b, strong {
           box-shadow: 0 2px 4px 0 rgba(207, 207, 207, 0.5);
 }
 
+.bg-white {
+  background: #fff;
+}
+
 body {
   background: #ffffff;
 }
@@ -9665,6 +9669,10 @@ nav {
 
 .navbar-nav li {
   padding-right: 1em;
+}
+
+.navbar {
+  background: #ffffff;
 }
 
 /* Navigation */
