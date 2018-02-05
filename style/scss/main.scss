@@ -7,6 +7,14 @@
 @import './vendors/include-media/dist/include-media';
 @import './vendors/bootstrap-select/dist/bootstrap-select';
 
+@import '././node_modules/sass-fonts/settings/settings.typography';        // google-fonts or webfonts
+@import '././node_modules/sass-fonts/settings/settings.typekit';
+@import '././node_modules/inuitcss/tools/tools.font-size'; 
+
+@import '././node_modules/sass-mq/mq';
+@import '././node_modules/sass-fonts/tools/tools.typekit';
+@import '././node_modules/sass-fonts/tools/tools.typography';
+
 @import 'base/reset';
 @import 'base/typography';
 @import 'base/general';
