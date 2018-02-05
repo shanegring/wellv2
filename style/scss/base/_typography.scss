@@ -9,14 +9,11 @@ $blue: #6AB7E1;
 @import './vendors/include-media/dist/include-media';
 
 
-h1, h2, h4, h5, h6, th, td, select, option, legend, fieldset, button, optgroup  {
-font-family: "freight-display-pro", serif;
+h1, h2, h3, h4, h5, h6, th, td, select, option, legend, fieldset, button, optgroup, body, p, input, textarea  {
+font-family: "museo-sans",sans-serif;
 font-style: normal;
 }
 
-body, p, h3, input, textarea {
-font-family: "roboto-mono", monospace;
-}
 
 body {
   font-size: 100%;
@@ -26,6 +23,10 @@ body {
 
 .nooverflow{
   overflow:hidden;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
@@ -50,22 +51,6 @@ body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2
 }
 */
 
-h1 {
-  font-size: 3.5em;
-  line-height: 1.25;
-  font-family: "Freight display pro", serif;
-  font-weight: 900;
-  letter-spacing: 1px;
-
-  #welcome {
-    color: #fff; }
-
-  #services{
-    color: $red;
-    margin-left: 0.2em;
-    z-index: 3;}
-
-}
 
 
 @include media ('>tablet') {
@@ -85,13 +70,8 @@ h1 {
   }
 }
 
-.uppercase {
-  text-transform: uppercase;
-}
-
 
 h2 {
-  font-family: "freight-display-pro", serif;
   font-weight: 900; 
   letter-spacing: 0.5px;
   font-size: 2em;
@@ -121,9 +101,7 @@ h2 {
 
 
 h3 {
-  font-family: "roboto-mono", monospace;
   font-size: 2em;
-  text-transform: uppercase;
   letter-spacing: 1px;
   /* 1.375x body copy size = 22px */
   line-height: 1.2;
@@ -150,7 +128,6 @@ h3 {
 
 
 h4 {
-  font-family: "freight-display-pro", serif;
   font-weight: 700; 
   font-size: 1.8em;
   letter-spacing: 0px;
@@ -167,7 +144,6 @@ h4 {
 
 
 h5 {
-  font-family: "roboto-mono", monospace;
   font-size: 1em;
   /* 1.125x body copy size = 18px */
   line-height: 1.0;
@@ -175,7 +151,6 @@ h5 {
 
 
 h6 {
-  font-family: "roboto-mono", monospace;
   font-size: .6em;
   /* 1.125x body copy size = 18px */
   line-height: 1em;
@@ -183,8 +158,7 @@ h6 {
 
 
 @include media ('>tablet') {
-  h6 {
-  font-family: "roboto-mono", monospace;    
+  h6 {  
     font-size: 1em;
     line-height: 1em;
     /* (22px / 18px */
@@ -192,13 +166,9 @@ h6 {
 }
 
 
-.form-group {
-  font-family: "roboto-mono", monospace;  
-}
 
 
 p {
-  font-family: "roboto-mono", monospace;
   font-size: 1em;
   letter-spacing: 0.5px;
   line-height: 200%;
@@ -244,248 +214,5 @@ b,strong{
 
 
 
-
-
-
-
-
-/*START OF NEW TYPOGRAPHY WELL*/
-
-
-
-h1, h2, h3, h4, h5, h6, legend, th, fieldset, select, label, option, optgroup  {
-  font-family: museo-sans, sans-serif;
-  font-style: normal;
-}
-
-body, td, input, textarea {
-  font-family: 'Pt serif', serif; 
-  font-weight: 400;  
-}
-
-button {
-  font-family: museo-sans, sans-serif;  
-}
-
-
-.badge {
-  font-family: museo-sans, sans-serif;  
-} 
-
-
-mark {
-  background-color: #A6D7AC;
-  color: white;
-}
-
-body {
-  font-size: 100%;
-  max-width: 100%;
-overflow-x: hidden; 
-}
-
-.text-muted {
-  color: #ccc;
-}
-
-.small, small {
-  font-size: 75%;
-}
-
-.nooverflow{
-  overflow:hidden;
-}
-
-body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
-  font-size-adjust: 0.5;
-}
-
-#page {
-  font-size: 1em;
-  /* equivalent to 16px */
-  line-height: 1.25;
-  /* equivalent to 20px */
-}
-
-@media (min-width: 43.75em) {
-  #page {
-    font-size: 1em;
-    /* equivalent to 16px */
-    line-height: 1.375;
-    /* equivalent to 22px */
-  }
-}
-
-h1 {
-  font-size: 2.5em;
-  /* 2x body copy size = 32px */
-  line-height: 1.25;
-  /* 45px / 36px */
-}
-
-@media (min-width: 43.75em) {
-  h1 {
-    font-size: 2.75em;
-    /* 2.5x body copy size = 40px */
-    line-height: 1.125;
-  }
-}
-
-@media (min-width: 56.25em) {
-  h1 {
-    font-size: 2.75em;
-    /* 3x body copy size = 48px */
-    line-height: 1.25;
-    /* keep to a multiple of the 20px line height and something more appropriate for display headings */
-  }
-}
-
-h2 {
-  font-size: 2em;
-  font-weight: 700;
-  /* 1.625x body copy size = 26px */
-  line-height: 1.33;
-  /* 30px / 26px */
-}
-
-@media (min-width: 43.75em) {
-  h2 {
-    font-size: 2.25em;
-    /* 2x body copy size = 32px */
-    line-height: 1.25;
-  }
-}
-
-@media (min-width: 56.25em) {
-  h2 {
-    font-size: 2.25em;
-    /* 2.25x body copy size = 36px */
-    line-height: 1.25;
-  }
-}
-
-h3 {
-  font-size: 1.6em;
-  letter-spacing: 0.04rem;
-  /* 1.375x body copy size = 22px */
-  line-height: 1.2;
-  /* 25px / 22px */
-}
-
-@media (min-width: 43.75em) {
-  h3 {
-    font-size: 1.65em;
-    /* 1.5x body copy size = 24px */
-    line-height: 1.25;
-  }
-}
-
-@media (min-width: 56.25em) {
-  h3 {
-    font-size: 1.7em;
-    /* 1.75x body copy size = 28px */
-    line-height: 1.583;
-  }
-}
-
-h4 {
-  font-size: 1.45em;
-  /* 1.125x body copy size = 18px */
-  line-height: 1.3;
-}
-
-@media (min-width: 43.75em) {
-  h4 {
-    line-height: 1.35;
-    /* (22px / 18px */
-  }
-}
-
-h5 {
-  font-size: 1.2em;
-  /* 1.125x body copy size = 18px */
-  line-height: 1.2;
-}
-
-
-h6 {
-  font-size: .8em;
-  /* 1.125x body copy size = 18px */
-  line-height: 1em;
-}
-
-@media (min-width: 43.75em) {
-  h6 {
-    font-size: 0.9em;
-    line-height: 1.4em;
-    /* (22px / 18px */
-  }
-}
-
-p {
-  font-size: .95rem;
-  line-height: 1.4rem;
-}
-
-@media (min-width: 43.75em) {
-  p {
-    font-size: 1rem;
-      line-height: 1.625rem;
-
-  }
-}
-
-
-.lead {
-  font-size: 1.2rem;
-  line-height: 1.6rem;
-}
-
-@media (min-width: 43.75em) {
-  .lead {
-    font-size: 1.3rem;
-    line-height: 1.75rem;
-
-  }
-}
-
-
-
-
-
-
-.display-1, .display-2, .display-3, .display-4 {
-  font-family: museo-sans, sans-serif;
-  line-height: 1.25;
-} 
-
-@media (min-width: 43.75em) {
-    .display-1, .display-2, .display-3, .display-4 {    
-      line-height: 1.125;}
-  }
-
-.blockquote, blockquote {
-  font-size: 1em;
-  /* 20px / 16px */
-  line-height: 1.25;
-  /* 25px / 20px */
-}
-
-@media (min-width: 43.75em) {
-  .blockquote {
-    font-size: 1.1em;
-    /* 24px / 16px = */
-    line-height: 1.50833333;
-    /* 35px / 24px */
-  }
-}
-
-b,strong{
-  font-weight:700;
-}
-a:focus{
-  border: 0;
-  outline: none;  
-}
 
 

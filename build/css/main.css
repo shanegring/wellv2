@@ -401,13 +401,11 @@ blockquote {
 a {
   color: #0275d8;
   text-decoration: none;
-  cursor: pointer;
 }
 
 a:focus, a:hover {
   color: #014c8c;
   text-decoration: underline;
-  cursor: pointer;  
 }
 
 a:not([href]):not([tabindex]) {
@@ -537,6 +535,7 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-family: inherit;
+  font-weight: 500;
   line-height: 1.1;
   color: inherit;
 }
@@ -9256,6 +9255,10 @@ select.selectpicker {
   float: none;
 }
 
+h1, h2, h3, h4, h5, h6, th, td, select, option, legend, fieldset, button, optgroup, body, p, input, textarea {
+  font-family: "museo-sans",sans-serif;
+  font-style: normal;
+}
 
 body {
   font-size: 100%;
@@ -9265,6 +9268,10 @@ body {
 
 .nooverflow {
   overflow: hidden;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
@@ -9289,23 +9296,6 @@ body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2
   }
 }
 */
-h1 {
-  font-size: 3.5em;
-  line-height: 1.25;
-  font-weight: 900;
-  letter-spacing: 1px;
-}
-
-h1 #welcome {
-  color: #fff;
-}
-
-h1 #services {
-  color: #D85B56;
-  margin-left: 0.2em;
-  z-index: 3;
-}
-
 @media (min-width: 769px) {
   h1 {
     font-size: 4.2em;
@@ -9321,12 +9311,7 @@ h1 #services {
   }
 }
 
-.uppercase {
-  text-transform: uppercase;
-}
-
 h2 {
-  font-family: "freight-display-pro", serif;
   font-weight: 900;
   letter-spacing: 0.5px;
   font-size: 2em;
@@ -9353,9 +9338,7 @@ h2 {
 }
 
 h3 {
-  font-family: "roboto-mono", monospace;
   font-size: 2em;
-  text-transform: uppercase;
   letter-spacing: 1px;
   /* 1.375x body copy size = 22px */
   line-height: 1.2;
@@ -9379,12 +9362,7 @@ h3 {
 }
 
 h4 {
-<<<<<<< HEAD
-  font-family: 'museo-sans', sans-serif;
-=======
-  font-family: "freight-display-pro", serif;
   font-weight: 700;
->>>>>>> 7a2a8cc976b1da7604f067c0ab19d4205641c981
   font-size: 1.8em;
   letter-spacing: 0px;
   line-height: 120%;
@@ -9399,14 +9377,12 @@ h4 {
 }
 
 h5 {
-  font-family: "roboto-mono", monospace;
   font-size: 1em;
   /* 1.125x body copy size = 18px */
   line-height: 1.0;
 }
 
 h6 {
-  font-family: "roboto-mono", monospace;
   font-size: .6em;
   /* 1.125x body copy size = 18px */
   line-height: 1em;
@@ -9414,19 +9390,13 @@ h6 {
 
 @media (min-width: 769px) {
   h6 {
-    font-family: "roboto-mono", monospace;
     font-size: 1em;
     line-height: 1em;
     /* (22px / 18px */
   }
 }
 
-.form-group {
-  font-family: "roboto-mono", monospace;
-}
-
 p {
-  font-family: "roboto-mono", monospace;
   font-size: 1em;
   letter-spacing: 0.5px;
   line-height: 200%;
@@ -9457,233 +9427,6 @@ blockquote {
 
 b, strong {
   font-weight: 700;
-}
-
-/*START OF NEW TYPOGRAPHY WELL*/
-h1, h2, h3, h4, h5, h6, legend, th, fieldset, select, label, option, optgroup {
-  font-family: museo-sans, sans-serif;
-  font-style: normal;
-}
-
-body, td, input, textarea {
-  font-family: 'Pt serif', serif;
-  font-weight: 400;
-}
-
-button {
-  font-family: museo-sans, sans-serif;
-}
-
-.badge {
-  font-family: museo-sans, sans-serif;
-}
-
-mark {
-  background-color: #A6D7AC;
-  color: white;
-}
-
-body {
-  font-size: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
-}
-
-.text-muted {
-  color: #ccc;
-}
-
-.small, small {
-  font-size: 75%;
-}
-
-.nooverflow {
-  overflow: hidden;
-}
-
-body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
-  font-size-adjust: 0.5;
-}
-
-#page {
-  font-size: 1em;
-  /* equivalent to 16px */
-  line-height: 1.25;
-  /* equivalent to 20px */
-}
-
-@media (min-width: 43.75em) {
-  #page {
-    font-size: 1em;
-    /* equivalent to 16px */
-    line-height: 1.375;
-    /* equivalent to 22px */
-  }
-}
-
-h1 {
-  font-size: 2.5em;
-  /* 2x body copy size = 32px */
-  line-height: 1.25;
-  /* 45px / 36px */
-}
-
-@media (min-width: 43.75em) {
-  h1 {
-    font-size: 2.75em;
-    /* 2.5x body copy size = 40px */
-    line-height: 1.125;
-  }
-}
-
-@media (min-width: 56.25em) {
-  h1 {
-    font-size: 2.75em;
-    /* 3x body copy size = 48px */
-    line-height: 1.25;
-    /* keep to a multiple of the 20px line height and something more appropriate for display headings */
-  }
-}
-
-h2 {
-  font-size: 2em;
-  font-weight: 700;
-  /* 1.625x body copy size = 26px */
-  line-height: 1.33;
-  /* 30px / 26px */
-}
-
-@media (min-width: 43.75em) {
-  h2 {
-    font-size: 2.25em;
-    /* 2x body copy size = 32px */
-    line-height: 1.25;
-  }
-}
-
-@media (min-width: 56.25em) {
-  h2 {
-    font-size: 2.25em;
-    /* 2.25x body copy size = 36px */
-    line-height: 1.25;
-  }
-}
-
-h3 {
-  font-size: 1.6em;
-  letter-spacing: 0.04rem;
-  /* 1.375x body copy size = 22px */
-  line-height: 1.2;
-  /* 25px / 22px */
-}
-
-@media (min-width: 43.75em) {
-  h3 {
-    font-size: 1.65em;
-    /* 1.5x body copy size = 24px */
-    line-height: 1.25;
-  }
-}
-
-@media (min-width: 56.25em) {
-  h3 {
-    font-size: 1.7em;
-    /* 1.75x body copy size = 28px */
-    line-height: 1.583;
-  }
-}
-
-h4 {
-  font-size: 1.45em;
-  /* 1.125x body copy size = 18px */
-  line-height: 1.3;
-}
-
-@media (min-width: 43.75em) {
-  h4 {
-    line-height: 1.35;
-    /* (22px / 18px */
-  }
-}
-
-h5 {
-  font-size: 1.2em;
-  /* 1.125x body copy size = 18px */
-  line-height: 1.2;
-}
-
-h6 {
-  font-size: .8em;
-  /* 1.125x body copy size = 18px */
-  line-height: 1em;
-}
-
-@media (min-width: 43.75em) {
-  h6 {
-    font-size: 0.9em;
-    line-height: 1.4em;
-    /* (22px / 18px */
-  }
-}
-
-p {
-  font-size: .95rem;
-  line-height: 1.4rem;
-}
-
-@media (min-width: 43.75em) {
-  p {
-    font-size: 1rem;
-    line-height: 1.625rem;
-  }
-}
-
-.lead {
-  font-size: 1.2rem;
-  line-height: 1.6rem;
-}
-
-@media (min-width: 43.75em) {
-  .lead {
-    font-size: 1.3rem;
-    line-height: 1.75rem;
-  }
-}
-
-.display-1, .display-2, .display-3, .display-4 {
-  font-family: museo-sans, sans-serif;
-  line-height: 1.25;
-}
-
-@media (min-width: 43.75em) {
-  .display-1, .display-2, .display-3, .display-4 {
-    line-height: 1.125;
-  }
-}
-
-.blockquote, blockquote {
-  font-size: 1em;
-  /* 20px / 16px */
-  line-height: 1.25;
-  /* 25px / 20px */
-}
-
-@media (min-width: 43.75em) {
-  .blockquote {
-    font-size: 1.1em;
-    /* 24px / 16px = */
-    line-height: 1.50833333;
-    /* 35px / 24px */
-  }
-}
-
-b, strong {
-  font-weight: 700;
-}
-
-a:focus {
-  border: 0;
-  outline: none;
 }
 
 .highlight {
@@ -9736,19 +9479,6 @@ mark {
   color: #fff;
 }
 
-nav {
-  background: #38138E;
-  text-align: center;
-  font-family: "roboto-mono", monospace;
-  text-transform: uppercase;
-  font-size: 1.1em;
-  letter-spacing: 2px;
-}
-
-.navbar-nav .nav-link {
-  color: #ffffff;
-}
-
 /*nav menu button*/
 .navbar-toggler {
   border: none;
@@ -9780,271 +9510,8 @@ nav {
   margin-left: 8%;
 }
 
-/* SASS*/
-@media (max-width: 575.99px) {
-  #welcome {
-    margin-top: -93%;
-  }
-}
-
-.welcomelist {
-  font-family: "roboto-mono", monospace;
-  font-size: 1em;
-}
-
-.welcomelist li {
-  padding-bottom: 0.4em;
-}
-
-h1 {
-  font-family: "freight-display-pro", serif;
-  font-weight: 900;
-  letter-spacing: 0.5px;
-  font-size: 5em;
-}
-
-#welcome h1 {
-  color: #fff;
-  font-size: 5.75em;
-}
-
-#welcome p {
-  font-family: "roboto-mono", monospace;
-  letter-spacing: 1px;
-  font-size: 1em;
-  color: #fff;
-}
-
-/* SASS*/
-@media (max-width: 575.99px) {
-  h1 {
-    font-size: 3.9em;
-  }
-  #welcome {
-    font-size: 0.9em;
-  }
-}
-
-/*BELIEFS*/
-h3 {
-  font-size: 2em;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-
-#beliefs {
-  background: #FFF;
-  text-align: center;
-  padding: 8em 1.5em;
-  margin-top: 5%;
-  -webkit-transform: skew(0deg, -6deg);
-  transform: skew(0deg, -6deg);
-  /* Standard syntax */
-}
-
-.beliefstext {
-  color: #000;
-  -webkit-transform: skew(0deg, 6deg);
-  transform: skew(0deg, 6deg);
-  position: relative;
-  z-index: 1;
-}
-
-.webelieve {
-  padding: 0.5em 6em;
-}
-
-@media (max-width: 575.99px) {
-  #beliefs {
-    margin-top: 27%;
-  }
-  .webelieve {
-    padding: 0.5em 1em;
-  }
-}
-
-h4 {
-<<<<<<< HEAD
-  font-family: "museo-sans", sans-serif;
-=======
-  font-family: "freight-display-pro", serif;
-  font-weight: 700;
->>>>>>> 7a2a8cc976b1da7604f067c0ab19d4205641c981
-  font-size: 1.8em;
-  letter-spacing: 0.5px;
-  line-height: 120%;
-}
-
-#beliefs span {
-  font-size: 0.5em;
-  display: inline;
-}
-
-.belieficons img {
-  padding: 2.5em;
-}
-
-.belieficons li {
-  display: inline;
-  float: left;
-  padding: 0.5em;
-  -webkit-transform: skew(0deg, 0deg);
-  transform: skew(0deg, 0deg);
-  /* Standard syntax */
-}
-
-<<<<<<< HEAD
-/*RITUALS*/
-h2 {
-  font-family: "museo-sans", sans-serif;
-  font-weight: 900;
-  letter-spacing: 0.5px;
-  font-size: 2.2em;
-}
-
-#rituals {
-  padding: 2em 1em;
-  margin-top: -7%;
-}
-
-#rituals article {
-  padding-top: 3em;
-  padding-bottom: 3em;
-}
-
-.humancentered {
-  background: #fff;
-}
-
-.experience {
-  background: #6AB7E1;
-  color: white;
-  padding: 0.5em;
-}
-
-.datadesign {
-  background: #D85B56;
-  color: white;
-  padding: 0.5em;
-}
-
-/*SERVICES*/
-.handy img {
-  opacity: 0.2;
-  z-index: -3;
-  margin-top: -24em;
-  padding-left: 2em;
-}
-
-#services {
-  background: #FFFAF0;
-  padding: 8em 1em;
-  -webkit-transform: skew(0deg, 6deg);
-  transform: skew(0deg, 6deg);
-  /* Standard syntax */
-}
-
-#services ul {
-  padding: 1.5em;
-  padding-top: 9em;
-  margin-left: -38%;
-  font-family: 'PT Serif', serif;
-  font-style: italic;
-  letter-spacing: 1px;
-  line-height: 180%;
-  font-size: 1em;
-  color: #D85B56;
-  -webkit-transform: skew(0deg, -6deg);
-  transform: skew(0deg, -6deg);
-  position: relative;
-  z-index: 1;
-}
-
-#services h1 {
-  color: #D85B56;
-  line-height: 100%;
-  margin-left: 0.2em;
-  z-index: 3;
-  -webkit-transform: skew(0deg, -6deg);
-  transform: skew(0deg, -6deg);
-  position: relative;
-  z-index: 1;
-}
-
-/*BELIEVERS*/
-#believers {
-  background: #FFFAF0;
-  padding: 4em 3em;
-  padding-top: 5em;
-  margin-top: -10%;
-  color: #38138E;
-  text-align: center;
-}
-
-#believers h3 {
-  color: #38138E;
-}
-
-#believers h4 {
-  color: #38138E;
-}
-
-.btn-primary {
-  background-color: #38138E;
-  border: 2px solid #38138E;
-  border-radius: 0em;
-  padding: 1em 3em;
-}
-
-.btn-primary:hover {
-  background: #FFFAF0;
-  border: 2px solid #38138E;
-  color: #38138E;
-}
-
-.clients img {
-  padding: 1em;
-}
-
-.clients li {
-  display: inline;
-  float: left;
-  padding: 1.5em;
-}
-
-form {
-  text-align: left;
-  font-family: 'PT Serif', serif;
-  letter-spacing: 0.25px;
-  padding-bottom: 1em;
-  padding-top: 1em;
-}
-
-.form-group {
-  padding-bottom: 0.5em;
-  font-family: 'PT Serif', serif;
-
-}
-
-label {
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-
-/*FOOTER*/
-.function-foot {
-  background: #38138E;
-  color: #FFFAF0;
-  font-family: 'PT Serif', serif;
-  letter-spacing: 0.25px;
-  font-size: 0.8em;
-  padding: 5em 3em;
-}
-
-/*START OF WELL ROOT CSS*/
 /* General */
 body {
-  background-color: #F4F5F7;
   padding-bottom: 5%;
   max-width: 1600px;
   margin: 0 auto;
@@ -10096,31 +9563,6 @@ body {
 
 .h-15 {
   height: 15rem;
-}
-=======
->>>>>>> 7a2a8cc976b1da7604f067c0ab19d4205641c981
-
-/* A-Spot */
-.caption {
-  bottom: 0;
-  position: absolute;
-  background: #000;
-  background: -o-linear-gradient(bottom, #000 60%, transparent 100%) repeat scroll 0 0 transparent;
-  color: #fff;
-}
-
-.a-spot-image {
-  border: 0 none;
-  margin: 0;
-  padding: 0;
-  min-height: 325px;
-  max-height: 500px;
-  overflow: hidden;
-  position: cover;
-}
-
-.inline {
-  display: inline;
 }
 
 /* Basic */
@@ -10177,16 +9619,6 @@ a:focus, a:hover {
   z-index: 555;
 }
 
-@media (min-width: 43.75em) {
-  .todolist {
-    margin-top: 0em;
-  }
-  .aggregateheader {
-    height: 8em;
-    z-index: 555;
-  }
-}
-
 /* Lines */
 .gray-line {
   border-bottom: 2px solid #F4F5F7;
@@ -10217,7 +9649,6 @@ nav {
   color: #429DB5;
 }
 
-<<<<<<< HEAD
 /*nav menu button*/
 .navbar-toggler {
   border: none;
@@ -10265,20 +9696,16 @@ a .nav-link {
   color: #979797;
 }
 
-/*FOOTER*/
-.function-foot {
-  background: #38138E;
-  color: #FFFAF0;
-  font-family: 'PT Serif', serif;
-  font-size: 0.8em;
-  padding: 5em 3em;
-}
-
 form {
   text-align: left;
   letter-spacing: 1px;
+  padding-bottom: 3em;
+  padding-top: 5em;
 }
 
+.form-group {
+  padding-bottom: 1em;
+}
 
 input {
   font-size: 0.8em;
@@ -10288,8 +9715,6 @@ label {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-=======
->>>>>>> 7a2a8cc976b1da7604f067c0ab19d4205641c981
 
 /* Inputs */
 .input-group-addon {
@@ -10309,9 +9734,8 @@ label {
   border: 1px solid #ebebeb;
 }
 
-
-.fileupload {
-  font-family: museo-sans, sans-serif;
+.form-group {
+  margin-bottom: 1rem;
 }
 
 .form-control, input, textarea {
@@ -10853,4 +10277,27 @@ input:focus, textarea:focus {
 .list-group-item.active {
   background-color: #49A1B8;
   border-color: #49A1B8;
+}
+
+/* A-Spot */
+.caption {
+  bottom: 0;
+  position: absolute;
+  background: #000;
+  background: -o-linear-gradient(bottom, #000 60%, transparent 100%) repeat scroll 0 0 transparent;
+  color: #fff;
+}
+
+.a-spot-image {
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+  min-height: 325px;
+  max-height: 500px;
+  overflow: hidden;
+  position: cover;
+}
+
+.inline {
+  display: inline;
 }

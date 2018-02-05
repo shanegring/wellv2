@@ -29,6 +29,7 @@
     "bootstrap-select": "^1.12.4",
     "highcharts": "^6.0.4",
     "hover.css": "^2.2.1",
-    "include-media": "^1.4.9"
+    "include-media": "^1.4.9",
+    "sass-fonts": "^1.1.0"
   }
 }
