@@ -30,6 +30,7 @@
     "highcharts": "^6.0.4",
     "hover.css": "^2.2.1",
     "include-media": "^1.4.9",
+    "inuitcss": "^6.0.0-beta.5",
     "sass-fonts": "^1.1.0"
   }
 }

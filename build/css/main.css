@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+@import url("https://use.typekit.net/zcy3uha.css");
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -9256,7 +9257,8 @@ select.selectpicker {
 }
 
 h1, h2, h3, h4, h5, h6, th, td, select, option, legend, fieldset, button, optgroup, body, p, input, textarea {
-  font-family: "museo-sans",sans-serif;
+  font-family: "museo-sans";
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -9296,9 +9298,16 @@ body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2
   }
 }
 */
+h1 {
+  font-size: 2em;
+  /* 2x body copy size = 32px */
+  line-height: 1.25;
+  /* 45px / 36px */
+}
+
 @media (min-width: 769px) {
   h1 {
-    font-size: 4.2em;
+    font-size: 2.5em;
     /* 2.5x body copy size = 40px */
     line-height: 1.125;
   }
@@ -9306,24 +9315,23 @@ body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2
 
 @media (min-width: 1025px) {
   h1 {
-    font-size: 5.75em;
+    font-size: 2.5em;
+    /* 3x body copy size = 48px */
     line-height: 1.25;
+    /* keep to a multiple of the 20px line height and something more appropriate for display headings */
   }
 }
 
 h2 {
-  font-weight: 900;
-  letter-spacing: 0.5px;
-  font-size: 2em;
+  font-size: 1.625em;
   /* 1.625x body copy size = 26px */
   line-height: 1.15384615;
   /* 30px / 26px */
-  letter-spacing: 2px;
 }
 
 @media (min-width: 769px) {
   h2 {
-    font-size: 2.5em;
+    font-size: 2em;
     /* 2x body copy size = 32px */
     line-height: 1.25;
   }
@@ -9331,15 +9339,14 @@ h2 {
 
 @media (min-width: 1025px) {
   h2 {
-    font-size: 3em;
+    font-size: 2.25em;
     /* 2.25x body copy size = 36px */
     line-height: 1.25;
   }
 }
 
 h3 {
-  font-size: 2em;
-  letter-spacing: 1px;
+  font-size: 1.175em;
   /* 1.375x body copy size = 22px */
   line-height: 1.2;
   /* 25px / 22px */
@@ -9347,7 +9354,7 @@ h3 {
 
 @media (min-width: 769px) {
   h3 {
-    font-size: 2.5em;
+    font-size: 1.5em;
     /* 1.5x body copy size = 24px */
     line-height: 1.25;
   }
@@ -9355,23 +9362,20 @@ h3 {
 
 @media (min-width: 1025px) {
   h3 {
-    font-size: 2.55em;
+    font-size: 1.55em;
     /* 1.75x body copy size = 28px */
     line-height: 1.583;
   }
 }
 
 h4 {
-  font-weight: 700;
-  font-size: 1.8em;
-  letter-spacing: 0px;
-  line-height: 120%;
+  font-size: 1.125em;
   /* 1.125x body copy size = 18px */
 }
 
 @media (min-width: 769px) {
   h4 {
-    line-height: 130%;
+    line-height: 1.22222222;
     /* (22px / 18px */
   }
 }
@@ -9397,9 +9401,8 @@ h6 {
 }
 
 p {
-  font-size: 1em;
-  letter-spacing: 0.5px;
-  line-height: 200%;
+  font-size: .8rem;
+  line-height: 1rem;
 }
 
 @media (min-width: 769px) {
@@ -9468,6 +9471,10 @@ b, strong {
 .shadow {
   -webkit-box-shadow: 0 2px 4px 0 rgba(207, 207, 207, 0.5);
           box-shadow: 0 2px 4px 0 rgba(207, 207, 207, 0.5);
+}
+
+.bg-white {
+  background: #fff;
 }
 
 body {
@@ -9662,6 +9669,10 @@ nav {
 
 .navbar-nav li {
   padding-right: 1em;
+}
+
+.navbar {
+  background: #ffffff;
 }
 
 /* Navigation */
@@ -10284,7 +10295,8 @@ input:focus, textarea:focus {
 .caption {
   bottom: 0;
   position: absolute;
-  background: #000;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(60%, #000), to(transparent)) repeat scroll 0 0 transparent;
+  background: linear-gradient(bottom, #000 60%, transparent 100%) repeat scroll 0 0 transparent;
   background: -o-linear-gradient(bottom, #000 60%, transparent 100%) repeat scroll 0 0 transparent;
   color: #fff;
 }
