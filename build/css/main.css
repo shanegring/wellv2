@@ -9504,19 +9504,6 @@ mark {
   z-index: -11111;
 }
 
-/*WELCOME*/
-#welcome {
-  background: transparent;
-  margin-top: -180%;
-  padding-top: 0%;
-  padding-bottom: 14%;
-}
-
-.welcometext {
-  color: #fff;
-  margin-left: 8%;
-}
-
 /* General */
 body {
   background-color: #F4F5F7;
