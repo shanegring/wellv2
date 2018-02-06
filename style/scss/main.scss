@@ -3,11 +3,11 @@
 @import 'abstracts/mixins';
 @import 'abstracts/placeholders';
 
-@import './vendors/bootstrap/bootstrap';
-@import './vendors/include-media/dist/include-media';
-@import './vendors/bootstrap-select/dist/bootstrap-select';
+@import '././node_modules/bootstrap/bootstrap';
+@import '././node_modules/include-media/dist/include-media';
+@import '././node_modules/bootstrap-select/dist/bootstrap-select';
 
-@import '././node_modules/sass-fonts/settings/settings.typography';        // google-fonts or webfonts
+@import '././node_modules/sass-fonts/settings/settings.typography';     
 @import '././node_modules/sass-fonts/settings/settings.typekit';
 @import '././node_modules/inuitcss/tools/tools.font-size'; 
 
