@@ -9417,7 +9417,7 @@ h6 {
 @media (min-width: 769px) {
   h6 {
     font-size: 1em;
-    line-height: 1em;
+    line-height: 1.5em;
     /* (22px / 18px */
   }
 }
@@ -10130,7 +10130,7 @@ input:focus, textarea:focus {
 }
 
 .card .card-text {
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .card-header {
