@@ -9425,13 +9425,13 @@ h6 {
 
 p {
   font-size: .9rem;
-  line-height: 1rem;
+  line-height: 1.3rem;
 }
 
 @media (min-width: 769px) {
   p {
     font-size: 1rem;
-    line-height: 1.625rem;
+    line-height: 1.62rem;
   }
 }
 
