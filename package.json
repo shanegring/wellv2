@@ -22,6 +22,16 @@
   "repository": {
     "type": "git"
   },
+  "keywords": [
+    "algolia",
+    "search",
+    "template",
+    "example",
+    "fiddle",
+    "InstantSearch",
+    "InstantSearch.js",
+    "instantsearch"
+  ],
   "author": "",
   "license": "MIT",
   "bugs": {},
@@ -30,6 +40,7 @@
     "highcharts": "^6.0.4",
     "hover.css": "^2.2.1",
     "include-media": "^1.4.9",
+    "instantsearch.js": "^2.5.0",
     "inuitcss": "^6.0.0-beta.5",
     "sass-fonts": "^1.1.0"
   }
