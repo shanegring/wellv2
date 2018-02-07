@@ -9596,10 +9596,15 @@ select.selectpicker {
   float: none;
 }
 
-h1, h2, h3, h4, h5, h6, th, td, select, option, legend, fieldset, button, optgroup, body, p, input, textarea {
+h2, h3, h4, h5, h6, th, td, select, option, legend, fieldset, button, optgroup, body, p, input, textarea {
   font-family: "museo-sans";
   font-weight: 400;
   font-style: normal;
+}
+
+h1 {
+  font-family: "museo-slab";
+  font-weight: 400;
 }
 
 body {
@@ -9743,6 +9748,7 @@ h6 {
 p {
   font-size: .9rem;
   line-height: 1.3rem;
+  font-weight: 100;
 }
 
 @media (min-width: 769px) {
