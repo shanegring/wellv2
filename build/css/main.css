@@ -10064,11 +10064,6 @@ input {
   font-size: 0.8em;
 }
 
-label {
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-
 /* Inputs */
 .input-group-addon {
   border-radius: 0;
