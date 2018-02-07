@@ -9740,12 +9740,15 @@ h6 {
   }
 }
 
-
+p {
+  font-size: .9rem;
+  line-height: 1.3rem;
+}
 
 @media (min-width: 769px) {
   p {
     font-size: 1rem;
-    line-height: 1.62rem;
+    line-height: 1.625rem;
   }
 }
 
@@ -9803,6 +9806,14 @@ b, strong {
 
 .m {
   color: #f60;
+}
+
+.k {
+  color: #069;
+}
+
+.nd {
+  color: #99f;
 }
 
 .shadow {
