@@ -54,7 +54,7 @@
   <div class="row">
 
 <div class="col-2">
-  <div style="">
+  <div class="shadow">
       <a href="../content.html" class="list-group-item list-group-item-action">Content Home</a>
       <a href="colors.html" class="list-group-item list-group-item-action">Colors</a>
       <a href="default.html" class="list-group-item list-group-item-action">Default</a>
@@ -73,16 +73,26 @@
 
       <h1 class="mb-4">Fonts</h1>
 
+      <p>Adding Museo Slab to our font collection in v2 will give us more design options ad interest to our documents. Currently, the only font used is Museo Slab, given that these are from the same family, they will certainly fit together nicely and seamlessly fall into our brand. Museo Slab will be used for headers, body text will stay sans-serif for maximum legibility and cohesiveness across our documents. </p>
+
       <hr />
 
+<h4 class="mt-4">Museo Slab</h4>
+  <div class="highlight mt-4 p-3">
+    <pre><code>
+    <span class="nt">h1</span>
+    <span class="s">{font-family: "museo-slab",sans-serif; }</span>
+    </code></pre>
+  </div>
 
+  <h4 class="mt-4">Museo Sans</h4>
+  <div class="highlight mt-4 p-3">
+  <pre><code>
+  <span class="nt">h2, h3, h4, h5, h6, th, td, select, option, legend, fieldset, button, optgroup, body, p, input, textarea  {</span>
+  <span class="s">{font-family: "museo-sans",sans-serif; }</span>
+  </code></pre>
+  </div>
 
-      <h4>Museo Sans</h4>
-      <div class="highlight mt-4 p-3">
-          <h5><code>
-          {font-family: "museo-sans",sans-serif; }
-          </code></h5> 
-      </div>
 
       <hr />
       
@@ -230,13 +240,11 @@
 
         <p>For example, <code>&lt;section&gt;</code> should be wrapped as inline.</p>
 
-  <div class="highlight">
-    <pre><code class="language-html" data-lang="html">
-    <span class="nt">&lt;pre&gt;&lt;code&gt;</span><span class="ni">&amp;lt;</span>p<span class="ni">&amp;gt;</span>Sample text here...<span class="ni">&amp;lt;</span>/p<span class="ni">&amp;gt;</span>
-    <span class="ni">&amp;lt;</span>p<span class="ni">&amp;gt;</span>And another line of sample text here...<span class="ni">&amp;lt;</span>/p<span class="ni">&amp;gt;</span>
-    <span class="nt">&lt;/code&gt;&lt;/pre&gt;</span>
-    </code></pre>
-  </div> 
+      <div class="highlight mt-4">
+      <pre><code class="language-html" data-lang="html">
+      For example, <span class="nt">&lt;code&gt;</span><span class="ni">&amp;lt;</span>section<span class="ni">&amp;gt;</span><span class="nt">&lt;/code&gt;</span> should be wrapped as inline.
+      </code></pre>
+      </div>
     
 
     </div>
