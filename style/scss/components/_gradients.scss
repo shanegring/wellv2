@@ -1,3 +1,19 @@
 .deepbluegrad {
-background-color: linear-gradient(to right, rgba(20,66,73,0), rgba(7,102,127,0));"
+	height: 10em; 
+	background: linear-gradient(to right, rgba(20,66,73,1), rgba(7,102,127,1));
+}
+
+.darkbluegrad {
+	height: 10em; 
+	background: linear-gradient(to right, rgba(7,102,127,1), rgba(11,123,151,1));
+}
+
+.primarybluegrad {
+	height: 10em; 
+	background: linear-gradient(to right, rgba(11,123,151,1), rgba(59,157,182,1));
+}
+
+.lightbluegrad {
+	height: 10em; 
+	background: linear-gradient(to right, rgba(59,157,182,1), rgba(145,203,211,1));
 }
