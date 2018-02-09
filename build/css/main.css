@@ -10612,6 +10612,60 @@ input:focus, textarea:focus {
   background: linear-gradient(to right, #a7d6ad, #63a984);
 }
 
+.greengrad {
+  height: 10em;
+  background: -webkit-gradient(linear, left top, right top, from(#63a984), to(#40927d));
+  background: linear-gradient(to right, #63a984, #40927d);
+}
+
+.darkgreengrad {
+  height: 10em;
+  background: -webkit-gradient(linear, left top, right top, from(#40927d), to(#2f6b5e));
+  background: linear-gradient(to right, #40927d, #2f6b5e);
+}
+
+.deepgreengrad {
+  height: 10em;
+  background: -webkit-gradient(linear, left top, right top, from(#2f6b5e), to(#23483d));
+  background: linear-gradient(to right, #2f6b5e, #23483d);
+}
+
+.dustybluegrad {
+  height: 10em;
+  background: -webkit-gradient(linear, left top, right top, from(#91cbd3), to(#144249));
+  background: linear-gradient(to right, #91cbd3, #144249);
+}
+
+.bluegreengrad {
+  height: 10em;
+  background: -webkit-gradient(linear, left top, right top, from(#07667f), to(#a7d6ad));
+  background: linear-gradient(to right, #07667f, #a7d6ad);
+}
+
+.darkbluegreengrad {
+  height: 10em;
+  background: -webkit-gradient(linear, left top, right top, from(#0b7b97), to(#23483d));
+  background: linear-gradient(to right, #0b7b97, #23483d);
+}
+
+.primarybluegreengrad {
+  height: 10em;
+  background: -webkit-gradient(linear, left top, right top, from(#3b9db6), to(#40927d));
+  background: linear-gradient(to right, #3b9db6, #40927d);
+}
+
+.lightbluewhitegrad {
+  height: 10em;
+  background: -webkit-gradient(linear, left top, right top, from(#91cbd3), to(white));
+  background: linear-gradient(to right, #91cbd3, white);
+}
+
+.lightgreenwhitegrad {
+  height: 10em;
+  background: -webkit-gradient(linear, left top, right top, from(#a7d6ad), to(white));
+  background: linear-gradient(to right, #a7d6ad, white);
+}
+
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
