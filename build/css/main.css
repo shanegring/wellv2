@@ -10594,6 +10594,24 @@ input:focus, textarea:focus {
   background: linear-gradient(to right, #3b9db6, #91cbd3);
 }
 
+.lightgreenbluegrad {
+  height: 10em;
+  background: -webkit-gradient(linear, left top, right top, from(#a7d6ad), to(#91cbd3));
+  background: linear-gradient(to right, #a7d6ad, #91cbd3);
+}
+
+.lightbluegreengrad {
+  height: 10em;
+  background: -webkit-gradient(linear, left top, right top, from(#91cbd3), to(#a7d6ad));
+  background: linear-gradient(to right, #91cbd3, #a7d6ad);
+}
+
+.lightgreengrad {
+  height: 10em;
+  background: -webkit-gradient(linear, left top, right top, from(#a7d6ad), to(#63a984));
+  background: linear-gradient(to right, #a7d6ad, #63a984);
+}
+
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
