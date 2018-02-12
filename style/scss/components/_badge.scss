@@ -22,21 +22,20 @@
 
 
 .badge-gold {
-    background-color: #C48E29;
+    background-color: $gold;
 }
-
 .badge-silver {
-    background-color: #ccc;
+    background-color: $silver;
+}
+.badge-platinum {
+    background-color: $platinum;
 }
 
-.badge-platinum {
-    background-color: #555;
-}
 
 
 
 .badge-primary {
-    background-color: #429DB5;
+    background-color: $well-blue;
 }
 
 .badge-success {

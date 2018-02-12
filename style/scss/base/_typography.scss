@@ -1,9 +1,4 @@
 
-$white: #ffffff;
-$indigo: #38138E;
-$red: #D85B56;
-$blue: #6AB7E1;
-
 
 @import "./abstracts/variables";
 @import '././node_modules/bootstrap-select/dist/bootstrap-select';
@@ -18,6 +13,13 @@ font-style: normal;
 h1 {
 @include sf-typekit('museo-slab');
 }
+
+
+button {
+@include sf-typekit('roboto');
+}
+
+
 
 body {
   font-size: 100%;
