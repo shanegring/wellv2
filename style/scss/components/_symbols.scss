@@ -1,5 +1,5 @@
 
-@import "./colors";
+@import "./abstracts/variables";
 
 .well--air {
 	color: $air-color;
@@ -37,6 +37,6 @@
 }
 
 .well--black {
-	color: #000
+	color: $black;
 }
 
