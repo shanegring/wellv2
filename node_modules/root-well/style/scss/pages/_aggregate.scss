@@ -1,0 +1,27 @@
+
+
+/* A-Spot */
+
+.caption {
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(bottom, #000 60%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -webkit-linear-gradient(bottom, #000 60%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -moz-linear-gradient(bottom, #000 60%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -o-linear-gradient(bottom, #000 60%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #fff;
+}
+
+.a-spot-image {
+    border: 0 none;
+    margin:0;
+    padding:0;
+    min-height: 325px;
+    max-height: 500px;
+    overflow: hidden;
+    position: cover;
+}
+
+.inline {
+    display: inline;
+}

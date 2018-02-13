@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<!--[if IE 8]--> <html class="ie8 ie_old" lang="en"> <!--[endif]-->
+
+<head>
+  <meta charset = "UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Display</title>
+
+
+   <link rel="stylesheet" href="../../build/css/main.css">
+</head>
+
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded sticky-top shadow">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="../index.html">Root</a>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="../layout.html">Layout</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../content.html">Content</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../components.html">Components</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="../utilities.html">Utilities <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../pages.html">Pages</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../symbols.html">Symbols</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../setup.html">Set-up</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+  <body>
+
+<div class="col-12 mt-4 p-4">
+  <div class="row">
+
+<div class="col-2">
+  <div class="shadow">
+      <a href="../utilities.html" class="list-group-item list-group-item-action">Overview</a>
+      <a href="display.html" class="list-group-item list-group-item-action active">Display</a>
+      <a href="float.html" class="list-group-item list-group-item-action">Float</a>
+      <a href="positon.html" class="list-group-item list-group-item-action">Position</a>
+      <a href="sizing.html" class="list-group-item list-group-item-action">Sizing</a>
+      <a href="spacing.html" class="list-group-item list-group-item-action">Spacing</a>
+      <a href="typograhy.html" class="list-group-item list-group-item-action">Typograhy</a>
+      <a href="verticle-alignment.html" class="list-group-item list-group-item-action">Verticle Alignment</a>
+      <a href="visibility.html" class="list-group-item list-group-item-action">Visibility</a>
+  </div>
+</div>
+
+
+<div class="col-10">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 bg-white p-4 shadow">
+
+
+
+   <h1 class="mb-4">Display</h1>
+
+    <hr />
+
+    <h4>Inline</h4>
+    <div class="d-inline p-2 bg-primary text-white">d-inline</div>
+    <div class="d-inline p-2 bg-success text-white">d-inline</div>
+
+    <div class="highlight mt-4">
+    <pre><code class="language-html" data-lang="html">
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"d-inline p-2 bg-primary text-white"</span><span class="nt">&gt;</span>d-inline<span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"d-inline p-2 bg-success text-white"</span><span class="nt">&gt;</span>d-inline<span class="nt">&lt;/div&gt;</span>
+    </code></pre>
+    </div>
+
+    <hr />
+
+    <h4>Block</h4>
+    <span class="d-block p-2 bg-primary text-white">d-block</span>
+    <span class="d-block p-2 bg-success text-white">d-block</span>
+
+    <div class="highlight mt-4">
+    <pre><code class="language-html" data-lang="html">
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"d-block p-2 bg-primary text-white"</span><span class="nt">&gt;</span>d-block<span class="nt">&lt;/span&gt;</span>
+      <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"d-block p-2 bg-success text-white"</span><span class="nt">&gt;</span>d-block<span class="nt">&lt;/span&gt;</span>
+    </code></pre>
+    </div>
+
+
+    <style>
+    
+    th {
+    padding: .75rem;
+    vertical-align: top;
+    border: 1px solid #ddd;
+    }
+
+    td {
+    padding: .75rem;
+    vertical-align: top;
+    border: 1px solid #ddd;
+    </style>
+
+    <hr />
+
+    <h4>Hiding elements</h4>
+    <p>For faster mobile-friendly development, use responsive display classes for showing and hiding elements by device. Avoid creating entirely different versions of the same site, instead hide element responsively for each screen size.</p>
+
+    <p>To hide elements simply use the <code class="highlighter-rouge">.d-none</code> class or one of the <code class="highlighter-rouge">.d-{sm,md,lg,xl}-none</code> classes for any responsive screen variation.</p>
+
+    <p>To show an element only on a given interval of screen sizes you can combine one <code class="highlighter-rouge">.d-*-none</code> class with a <code class="highlighter-rouge">.d-*-*</code> class, for example <code class="highlighter-rouge">.d-none .d-md-block .d-xl-none</code> will hide the element for all screen sizes except on medium and large devices.</p>
+
+    <table class="mt-4">
+      <thead>
+        <tr>
+          <th>Screen Size</th>
+          <th>Class</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Hidden on all</td>
+          <td><code class="highlighter-rouge">.d-none</code></td>
+        </tr>
+        <tr>
+          <td>Hidden only on xs</td>
+          <td><code class="highlighter-rouge">.d-none .d-sm-block</code></td>
+        </tr>
+        <tr>
+          <td>Hidden only on sm</td>
+          <td><code class="highlighter-rouge">.d-sm-none .d-md-block</code></td>
+        </tr>
+        <tr>
+          <td>Hidden only on md</td>
+          <td><code class="highlighter-rouge">.d-md-none .d-lg-block</code></td>
+        </tr>
+        <tr>
+          <td>Hidden only on lg</td>
+          <td><code class="highlighter-rouge">.d-lg-none .d-xl-block</code></td>
+        </tr>
+        <tr>
+          <td>Hidden only on xl</td>
+          <td><code class="highlighter-rouge">.d-xl-none</code></td>
+        </tr>
+        <tr>
+          <td>Visible on all</td>
+          <td><code class="highlighter-rouge">.d-block</code></td>
+        </tr>
+        <tr>
+          <td>Visible only on xs</td>
+          <td><code class="highlighter-rouge">.d-block .d-sm-none</code></td>
+        </tr>
+        <tr>
+          <td>Visible only on sm</td>
+          <td><code class="highlighter-rouge">.d-none .d-sm-block .d-md-none</code></td>
+        </tr>
+        <tr>
+          <td>Visible only on md</td>
+          <td><code class="highlighter-rouge">.d-none .d-md-block .d-lg-none</code></td>
+        </tr>
+        <tr>
+          <td>Visible only on lg</td>
+          <td><code class="highlighter-rouge">.d-none .d-lg-block .d-xl-none</code></td>
+        </tr>
+        <tr>
+          <td>Visible only on xl</td>
+          <td><code class="highlighter-rouge">.d-none .d-xl-block</code></td>
+        </tr>
+      </tbody>
+    </table>
+
+
+<div class="mt-4">
+    <div class="d-lg-none">hide on screens wider than lg</div>
+    <div class="d-none d-lg-block">hide on screens smaller than lg</div>
+
+    <div class="highlight">
+      <pre><code class="language-html" data-lang="html">
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"d-lg-none"</span><span class="nt">&gt;</span>hide on screens wider than lg<span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"d-none d-lg-block"</span><span class="nt">&gt;</span>hide on screens smaller than lg<span class="nt">&lt;/div&gt;</span>
+      </code></pre>
+    </div>
+  </div>
+
+    
+
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+    
+     
+    
+
+<!-- Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+
+</html>
+

@@ -1,17 +1,9 @@
 {
-  "name": "root-well",
+  "name": "wellv2",
   "version": "0.0.1",
   "main": "Gulpfile.js",
   "devDependencies": {
     "browser-sync": "^2.23.5",
-    "chai": "^4.1.2",
-    "coveralls": "^3.0.0",
-    "grunt": "^0.4.5",
-    "grunt-contrib-jshint": "^0.10.0",
-    "grunt-contrib-nodeunit": "~0.4.1",
-    "grunt-contrib-uglify": "^0.5.1",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-svgstore": "^1.0.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.1.0",
     "gulp-help": "^1.6.1",
@@ -19,37 +11,20 @@
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.3",
     "gulp-svg-sprite": "^1.3.7",
-    "gulp-watch": "^5.0.0",
-    "istanbul": "^0.4.5",
-    "mocha": "^5.0.0"
+    "gulp-watch": "^5.0.0"
   },
   "repository": {
     "type": "git"
   },
-  "keywords": [
-    "algolia",
-    "search",
-    "template",
-    "example",
-    "fiddle",
-    "InstantSearch",
-    "InstantSearch.js",
-    "instantsearch"
-  ],
-  "author": "Shane Gring",
+  "author": "",
   "license": "MIT",
+  "bugs": {},
   "dependencies": {
     "bootstrap-select": "^1.12.4",
     "highcharts": "^6.0.4",
     "hover.css": "^2.2.1",
     "include-media": "^1.4.9",
-    "instantsearch.js": "^2.5.0",
-    "inuitcss": "^6.0.0-beta.5",
+    "root-well": "0.0.1",
     "sass-fonts": "^1.1.0"
-  },
-  "description": "The Function design language system, or /root, will provide staff, clients, and customers a shared understanding of our visual style, provide better access to analogue and digital resources, and streamline all contributions into a single, coherent system. This system will enable all users to prototype and experiment with ideas in high fidelity faster, at a lower cost, and in a more consistent voice.",
-  "scripts": {
-    "test": "node_modules/.bin/mocha --reporter spec",
-    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
   }
 }

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!--[if IE 8]--> <html class="ie8 ie_old" lang="en"> <!--[endif]-->
+
+<head>
+  <meta charset = "UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>SCSS</title>
+
+     <!--CSS Main-->
+
+ <link rel="stylesheet" href="../../build/css/main.css">
+
+</head>
+
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded sticky-top shadow">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="../../index.html">Root</a>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="../layout.html">Layout</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../content.html">Content</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../components.html">Components</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../utilities.html">Utilities</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../pages.html">Pages</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="../setup.html">Set-up <span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<body>
+        
+
+<div class="col-12 mt-4 p-4">
+  <div class="row">
+
+<div class="col-2">
+  <div style="">
+
+    <div class="list-group">
+      <a href="../setup.html" class="list-group-item list-group-item-action">Set-up Overview</a>
+      <a href="typekit.html" class="list-group-item list-group-item-action">Fonts</a>
+      <a href="scss.html" class="list-group-item list-group-item-action active">SCSS</a>
+      <a href="vendors.html" class="list-group-item list-group-item-action">Vendors</a>
+      <a href="sprites.html" class="list-group-item list-group-item-action">SVG Sprites</a>
+      <a href="sketch.html" class="list-group-item list-group-item-action">Sketch</a>
+    </div>
+  </div>
+</div>
+
+
+<style>
+
+</style>
+
+<div class="col-10">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 bg-white p-4 shadow">
+
+        <h1 class="mb-4">SCSS Architecture</h1>
+
+        <hr />
+
+
+        <h3>SCSS Structure</h3>
+        <p>Basically, you have all your partials stuffed into 7 different folders, and a single file at the root level (usually named main.scss) which imports them all to be compiled into a CSS stylesheet.</p>
+        <ul>
+          <li><code>base/</code>
+            <p>The base/ folder holds what we might call the boilerplate code for the project. In there, you might find the reset file, some typographic rules, and probably a stylesheet defining some standard styles for commonly used HTML elements </p>
+          </li>
+          <li><code>components/</code>
+            <p>For smaller components, there is the components/ folder. While layout/ is macro (defining the global wireframe), components/ is more focused on widgets. It contains all kind of specific modules like a slider, a loader, a widget, and basically anything along those lines. There are usually a lot of files in components/ since the whole site/application should be mostly composed of tiny modules.</p>
+          </li>
+          <li><code>layout/</code>
+            <p>The layout/ folder contains everything that takes part in laying out the site or application. This folder could have stylesheets for the main parts of the site (header, footer, navigation, sidebar…), the grid system or even CSS styles for all the forms.</p>
+          </li>
+          <li>
+            <code>pages/</code>
+            <p>If you have page-specific styles, it is better to put them in a pages/ folder, in a file named after the page. For instance, it’s not uncommon to have very specific styles for the home page hence the need for a _home.scss file in pages/.</p>
+          </li>
+          <li><code>themes/</code>
+            <p>On large sites and applications, it is not unusual to have different themes. There are certainly different ways of dealing with themes but I personally like having them all in a themes/ folder.</p>
+          </li>
+          <li><code>abstracts/</code>
+            <p>The abstracts/ folder gathers all Sass tools and helpers used across the project. Every global variable, function, mixin and placeholder should be put in here. The rule of thumb for this folder is that it should not output a single line of CSS when compiled on its own. These are nothing but Sass helpers.</p>
+          </li>
+          <li><code>vendors/</code>
+            <p>And last but not least, most projects will have a vendors/ folder containing all the CSS files from external libraries and frameworks – Normalize, Bootstrap, jQueryUI, FancyCarouselSliderjQueryPowered, and so on. Putting those aside in the same folder is a good way to say “Hey, this is not from me, not my code, not my responsibility”.</p>
+          </li>
+          <li><code>vendor-extention/</code>
+            <p>For instance, vendors-extensions/_bootstrap.scss is a file containing all CSS rules intended to re-declare some of Bootstrap’s default CSS. This is to avoid editing the vendor files themselves, which is generally not a good idea.</p>
+          </li>
+
+          <li><code>main.scss</code>
+            <p>The main file (usually labelled main.scss) should be the only Sass file from the whole code base not to begin with an underscore. This file should not contain anything but @import and comments.</p>
+          </li>
+
+
+        <button class="btn btn-primary mt-3" href="https://sass-guidelin.es/#architecture">More documetation</button>
+
+
+
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+</div> <!--End Container-->
+</div>
+
+<!-- Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+
+
+
+
+
+
+
+</body>
+
+</html>

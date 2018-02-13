@@ -1,20 +1,25 @@
+
+/*Variables*/
 @import 'abstracts/variables';
 @import 'abstracts/functions';
 @import 'abstracts/mixins';
 @import 'abstracts/placeholders';
 
-@import '././node_modules/bootstrap/bootstrap';
-@import '././node_modules/include-media/dist/include-media';
-@import '././node_modules/bootstrap-select/dist/bootstrap-select';
 
+/*Global styles*/
+@import '././node_modules/root-well/build/css/main';
+
+
+/*Font styles*/
 @import '././node_modules/sass-fonts/settings/settings.typography';     
 @import '././node_modules/sass-fonts/settings/settings.typekit';
 @import '././node_modules/inuitcss/tools/tools.font-size'; 
-
 @import '././node_modules/sass-mq/mq';
 @import '././node_modules/sass-fonts/tools/tools.typekit';
 @import '././node_modules/sass-fonts/tools/tools.typography';
 
+
+/*Local styles*/
 @import 'base/reset';
 @import 'base/typography';
 @import 'base/general';
