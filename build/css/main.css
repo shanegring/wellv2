@@ -1,5 +1,4 @@
-/*Variables*/
-/*Global styles*/
+/*Global Root styles; includes Bootstrap, Select, Include Media*/
 /*!
  * Bootstrap v4.0.0-alpha.6 (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
@@ -10803,7 +10802,8 @@ input:focus, textarea:focus {
   border-bottom-right-radius: .6rem;
 }
 
-/*Font styles*/
+/*Variables*/
+/*Font; currently controlled by Root. Need to get Local*/
 /*Local styles*/
 /*!
  * Bootstrap-select v1.12.4 (http://silviomoreto.github.io/bootstrap-select)
