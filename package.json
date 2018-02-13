@@ -1,6 +1,6 @@
 {
   "name": "root-well",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "main": "Gulpfile.js",
   "devDependencies": {
     "browser-sync": "^2.23.5",
