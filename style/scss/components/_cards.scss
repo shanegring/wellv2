@@ -72,11 +72,11 @@ border-radius: 0rem;
 }
 
 .card-title{
-  color: #636c72;
+  color: $dark-grey;
 }
 
 .card-title:hover {
-  color:  #429DB5;
+  color: $burnt-charcoal;
 }
 
 
@@ -85,7 +85,7 @@ border-radius: 0rem;
 }
 
 .card-primary {
-  background-color: #429DB5;
+  background-color: $well-blue;
 }
 
 .card .card-text {
@@ -93,7 +93,7 @@ border-radius: 0rem;
 }
 
 .card-header {
-  background-color: #E8ECEF;
+  background-color: $light-cloud;
   border-top: 1px solid rgba(0,0,0,.125);
   border-bottom: 0px solid rgba(0,0,0,.125);
 }
@@ -103,7 +103,7 @@ border-radius: 0rem;
 }
 
 .card-link {
-  color: #429DB5;
+  color: $well-blue;
 }
 
 
