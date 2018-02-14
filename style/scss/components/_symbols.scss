@@ -2,38 +2,43 @@
 @import "./abstracts/variables";
 
 .well--air {
-	color: $air-color;
+	color: $deep-ocean;
 }
 
 .well--water {
-	color: $water-color;
+	color: $ocean-blue:
 }
 
 .well--nourishment {
-	color: $nourishment-color;
+	color: $sea-blue;
 }
 
 .well--light {
-	color: $light-color;
+	color: $light-blue;
 }
 
 .well--fitness {
-	color: $fitness-color;
+	color: $icy-blue;
 }
 
 .well--comfort {
-	color: $comfort-color;
-}
-
-.well--mind {
-	color: $mind-color;
+	color: $light-grass;
 }
 
 .well--sound {
-	color: $sound-color;
+	color: $grassy-green;
 }
+
+.well--materials {
+	color: $sea-green;
+}
+
+.well--mind {
+	color: $deep-green;
+}
+
 .well--community {
-	color: $community-color;
+	color: $darkest-green;
 }
 
 .well--black {
