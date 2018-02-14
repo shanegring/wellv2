@@ -1,0 +1,71 @@
+.alert {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+
+
+.alert-primary {
+    background-color: lighten($well-blue, 20);
+    border-color: $well-blue;
+    color: darken($well-blue, 20);
+}
+
+.alert-secondary {
+    background-color: $lightest-cloud;
+    border-color: $light-grey;
+    color: $dark-grey;
+}
+
+
+.alert-success {
+    background-color: $light-grass;
+    border-color: $grassy-green;
+    color: $darkest-green;
+}
+
+.alert-danger {
+    background-color: lighten($red, 20);
+    border-color: lighten($red, 10);
+    color: $red;
+}
+
+.alert-warning {
+    background-color: lighten($orange, 20);
+    border-color: lighten($orange, 10);
+    color: $orange;
+}
+
+.alert-info {
+    background-color: $icy-blue;
+    border-color: $light-blue;
+    color: $ocean-blue;
+}
+
+.alert-light {
+    background-color: #dff0d8;
+    border-color: #d0e9c6;
+    color: #3c763d;
+}
+
+.alert-dark{
+    background-color: #dff0d8;
+    border-color: #d0e9c6;
+    color: #3c763d;
+}
+
+.alert-link{
+    background-color: #dff0d8;
+    border-color: #d0e9c6;
+    color: #3c763d;
+}
+
+
+
+.alert-heading {
+    color: inherit;
+}
+
+
