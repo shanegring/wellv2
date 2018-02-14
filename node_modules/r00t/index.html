@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!--[if IE 8]--> <html class="ie8 ie_old" lang="en"> <!--[endif]-->
+
+<head>
+  <meta charset = "UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>/root</title>
+
+     <!--CSS Main-->
+
+ <link rel="stylesheet" href="build/css/main.css">
+
+   <!--JS-->  
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js'></script>
+
+
+</head>
+
+<style>
+
+body {
+  padding-bottom: 0px;
+}
+
+</style>
+
+<script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+<script src="js/ROOT ANIMATION_HTML5 Canvas.js"></script>
+<script>
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+function init() {
+  canvas = document.getElementById("canvas");
+  anim_container = document.getElementById("animation_container");
+  dom_overlay_container = document.getElementById("dom_overlay_container");
+  var comp=AdobeAn.getComposition("C99414891648499BA8D419B9F70CE4F9");
+  var lib=comp.getLibrary();
+  handleComplete({},comp);
+}
+function handleComplete(evt,comp) {
+  //This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+  var lib=comp.getLibrary();
+  var ss=comp.getSpriteSheet();
+  exportRoot = new lib.ROOTANIMATION_HTML5Canvas();
+  stage = new lib.Stage(canvas);  
+  //Registers the "tick" event listener.
+  fnStartAnimation = function() {
+    stage.addChild(exportRoot);
+    createjs.Ticker.setFPS(lib.properties.fps);
+    createjs.Ticker.addEventListener("tick", stage);
+  }     
+  //Code to support hidpi screens and responsive scaling.
+  function makeResponsive(isResp, respDim, isScale, scaleType) {    
+    var lastW, lastH, lastS=1;    
+    window.addEventListener('resize', resizeCanvas);    
+    resizeCanvas();   
+    function resizeCanvas() {     
+      var w = lib.properties.width, h = lib.properties.height;      
+      var iw = window.innerWidth, ih=window.innerHeight;      
+      var pRatio = window.devicePixelRatio || 1, xRatio=iw/w, yRatio=ih/h, sRatio=1;      
+      if(isResp) {                
+        if((respDim=='width'&&lastW==iw) || (respDim=='height'&&lastH==ih)) {                    
+          sRatio = lastS;                
+        }       
+        else if(!isScale) {         
+          if(iw<w || ih<h)            
+            sRatio = Math.min(xRatio, yRatio);        
+        }       
+        else if(scaleType==1) {         
+          sRatio = Math.min(xRatio, yRatio);        
+        }       
+        else if(scaleType==2) {         
+          sRatio = Math.max(xRatio, yRatio);        
+        }     
+      }     
+      canvas.width = w*pRatio*sRatio;     
+      canvas.height = h*pRatio*sRatio;
+      canvas.style.width = dom_overlay_container.style.width = anim_container.style.width =  w*sRatio+'px';       
+      canvas.style.height = anim_container.style.height = dom_overlay_container.style.height = h*sRatio+'px';
+      stage.scaleX = pRatio*sRatio;     
+      stage.scaleY = pRatio*sRatio;     
+      lastW = iw; lastH = ih; lastS = sRatio;            
+      stage.tickOnUpdate = false;            
+      stage.update();            
+      stage.tickOnUpdate = true;    
+    }
+  }
+  makeResponsive(false,'both',false,1); 
+  AdobeAn.compositionLoaded(lib.properties.id);
+  fnStartAnimation();
+}
+</script>
+
+
+
+
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded sticky-top shadow">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="index.html">Root</a>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="html/layout.html">Layout</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="html/content.html">Content</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="html/components.html">Components</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="html/utilities.html">Utilities</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="html/pages.html">Pages</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="html/setup.html">Set-up</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="html/blog.html">Blog</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<body>
+
+        
+
+<div class="col-12">
+  <div class="row">
+
+  <div class="container-fluid">
+    <div class="row">
+
+      <body onload="init();" style="margin:0px;">
+  <div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:1440px; height:600px">
+    <canvas id="canvas" width="1440" height="775" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+    <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:1440px; height:775px; position: absolute; left: 0px; top: 0px; display: block;">
+    </div>
+  </div>
+</body>
+
+    
+
+   
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+  
+
+
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+
+
+
+
+
+</body>
+
+</html>

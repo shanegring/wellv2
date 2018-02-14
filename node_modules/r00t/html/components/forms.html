@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!--[if IE 8]--> <html class="ie8 ie_old" lang="en"> <!--[endif]-->
+
+<head>
+  <meta charset = "UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Forms</title>
+
+  <!--CSS Main-->
+  <link rel="stylesheet" href="../../build/css/main.css">
+
+</head>
+
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded sticky-top shadow">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="../index.html">Root</a>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="../layout.html">Layout</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../content.html">Content</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="../components.html">Components <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../utilities.html">Utilities</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../pages.html">Pages</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../symbols.html">Symbols</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../setup.html">Set-up</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+  <body>
+
+
+
+
+<div class="col-12 mt-4 p-4">
+  <div class="row">
+
+<div class="col-2">
+  <div class="shadow">
+      <a href="./components.html" class="list-group-item list-group-item-action">Overview</a>
+      <a href="alerts.html" class="list-group-item list-group-item-action">Alerts</a>
+      <a href="badges.html" class="list-group-item list-group-item-action">Badges</a>
+      <a href="buttons.html" class="list-group-item list-group-item-action">Buttons</a>
+      <a href="cards.html" class="list-group-item list-group-item-action">Cards</a>
+      <a href="collapse.html" class="list-group-item list-group-item-action">Collapse</a>
+      <a href="dropdown.html" class="list-group-item list-group-item-action">Dropdown</a>
+      <a href="forms.html" class="list-group-item list-group-item-action active">Forms</a>
+      <a href="list-group.html" class="list-group-item list-group-item-action">List group</a>
+      <a href="input.html" class="list-group-item list-group-item-action">Inputs</a>
+      <a href="modal.html" class="list-group-item list-group-item-action">Modal</a>
+      <a href="navigation.html" class="list-group-item list-group-item-action">Navigation</a>
+      <a href="pagination.html" class="list-group-item list-group-item-action">Pagination</a>
+      <a href="progress-bar.html" class="list-group-item list-group-item-action">Progress Bar</a>
+      <a href="tool-tip.html" class="list-group-item list-group-item-action">Tool Tip</a>
+  </div>
+</div>
+
+
+<div class="col-10">
+  <div class="container-fluid">
+    <div class="row">
+
+  
+  
+      <div class="col-12 shadow bg-white p-4">
+        <h1 class="mb-4">Forms</h1>
+         <hr />
+  
+
+    
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        <div class="highlight">
+        <pre><code class="language-html" data-lang="html">
+        <span class="nt">&lt;form&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"exampleInputEmail1"</span><span class="nt">&gt;</span>Email address<span class="nt">&lt;/label&gt;</span>
+          <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"email"</span> <span class="na">class=</span><span class="s">"form-control"</span> <span class="na">id=</span><span class="s">"exampleInputEmail1"</span> <span class="na">aria-describedby=</span><span class="s">"emailHelp"</span> <span class="na">placeholder=</span><span class="s">"Enter email"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;small</span> <span class="na">id=</span><span class="s">"emailHelp"</span> <span class="na">class=</span><span class="s">"form-text text-muted"</span><span class="nt">&gt;</span>We'll never share your email with anyone else.<span class="nt">&lt;/small&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-group"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"exampleInputPassword1"</span><span class="nt">&gt;</span>Password<span class="nt">&lt;/label&gt;</span>
+          <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"password"</span> <span class="na">class=</span><span class="s">"form-control"</span> <span class="na">id=</span><span class="s">"exampleInputPassword1"</span> <span class="na">placeholder=</span><span class="s">"Password"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-check"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">class=</span><span class="s">"form-check-input"</span> <span class="na">id=</span><span class="s">"exampleCheck1"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"form-check-label"</span> <span class="na">for=</span><span class="s">"exampleCheck1"</span><span class="nt">&gt;</span>Check me out<span class="nt">&lt;/label&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"submit"</span> <span class="na">class=</span><span class="s">"btn btn-primary"</span><span class="nt">&gt;</span>Submit<span class="nt">&lt;/button&gt;</span>
+      <span class="nt">&lt;/form&gt;</span>
+      </code></pre>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+
+</div>
+</div>
+
+       
+       
+       
+  
+    
+
+<!-- Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+
+  </body>
+</html>

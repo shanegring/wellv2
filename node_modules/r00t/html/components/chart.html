@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!--[if IE 8]--> <html class="ie8 ie_old" lang="en"> <!--[endif]-->
+
+<head>
+  <meta charset = "UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Chart</title>
+
+
+     <!--CSS Main-->
+
+  <link rel="stylesheet" href="../../build/css/main.css">
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+</head>
+
+<style>
+
+rect {
+  fill: transparent;
+}
+
+
+</style>
+
+  <body>
+
+
+
+      
+<div id="container-1" style="min-width: 310px; height: 600px; margin: 0 auto">
+<h1>The Growth of WELL APs</h1>
+</div>
+
+<div style="width: 50%; margin-top: -500px">
+<h1 class="display-3" style="padding-left: 100px">The Growth of WELL APs</h1>
+</div>
+
+
+       
+ </body>       
+       
+<script>
+
+    $(function () {
+            $('#container-1').highcharts({
+                chart: {
+                    type: 'area'
+                },
+                title: {
+                    text: ''
+                },
+                subtitle: {
+                    text: ''
+                },
+
+               colors: ['#429DB5'],
+
+
+                xAxis: {
+                    categories: [
+                        'Oct 2015',
+                        'Nov 2015',
+                        'Dec 2015',
+                        'Jan 2016',
+                        'Feb 2016',
+                        'Mar 2016',
+                        'Apr 2016',
+                        'May 2016',
+                        'June 2016',
+                        'July 2016',
+                        'Aug 2016',
+                        'Sept 2016',
+                        'Oct 2016',
+                        'Nov 2016',
+                        'Dec 2016',
+                        'Jan 2017',
+                        'Feb 2017',
+                        'Mar 2017',
+                        'Apr 2017',
+                        'May 2017',
+                        'June 2017',
+                        'July 2017',
+                        'Aug 2017',
+                        'Sept 2017',
+                        'Oct 2017',
+                        'Nov 2017',
+                        'Dec 2017',
+                        'Jan 2018',
+                    ],
+                    tickmarkPlacement: 'on',
+                    title: {
+                        enabled: false
+                    },
+                    visible: false
+                },
+                yAxis: {
+                    min: 0,
+                    title: {
+                        enabled: false
+                    },
+                    gridLineColor: 'transparent',
+                    visible: false
+
+                },
+                tooltip: {
+                    headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                    pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                        '<td style="padding:0"><b>{point.y}</b></td></tr>',
+                    footerFormat: '</table>',
+                    shared: true,
+                    useHTML: true
+                },
+                plotOptions: {
+                    column: {
+                        pointPadding: 0.2,
+                        borderWidth: 0
+                    }
+                },
+                navigation: {
+                  buttonOptions: {
+                    enabled: false
+                    }
+                   },
+                series: [{
+                  showInLegend: false, 
+                    name: 'Total Amount of WELL APs',
+                    data: [1, 10, 41, 63, 77, 104, 143, 207, 286, 386, 496, 644, 731, 821, 924, 1006, 1059, 1161, 1281, 1484, 1675, 1793, 1894, 1974, 2049, 2218, 2384, 2505],
+
+
+                }]
+            });
+        });
+    </script>
+
+
+</html>

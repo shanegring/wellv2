@@ -1,0 +1,77 @@
+form {
+	text-align: left;
+	letter-spacing: 1px;
+	padding-bottom: 3em;
+	padding-top: 5em;
+}
+
+.form-group {
+	padding-bottom: 1em;
+}
+
+input {
+	font-size: 0.8em;
+}
+
+label {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+
+
+
+/* Inputs */
+
+
+
+.input-group-addon {
+  border-radius: 0;
+}
+
+.input-group-addon.form-control-lg, 
+.input-group-lg>.input-group-addon, 
+.input-group-lg>.input-group-btn>.input-group-addon.btn {
+  border-radius: 0;
+}
+
+.form-control-plaintext {
+  padding: .5rem;
+  border: 1px solid #ebebeb;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-control, input, textarea{
+  border-radius: none;
+}
+
+.form-control:focus {
+  border-color: #429DB5;
+}
+
+input:focus, textarea:focus {
+  border: 1px solid #429DB5;
+}
+
+
+
+/* Forms */
+
+.form-control {
+  border-radius: 0;
+  border: 1px solid rgba(0,0,0,.05);
+}
+
+.form-control-lg {
+  border-radius: 0;
+}
+
+.custom-select {
+  border: 1px solid rgba(0,0,0,.05);
+  border-radius: 0rem;
+}
+  
+

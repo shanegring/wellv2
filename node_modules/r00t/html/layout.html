@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<!--[if IE 8]--> <html class="ie8 ie_old" lang="en"> <!--[endif]-->
+
+<head>
+  <meta charset = "UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Layout</title>
+
+     <!--CSS Main-->
+
+ <link rel="stylesheet" href="../build/css/main.css">
+
+   <!--JS-->  
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/modernizr.js"></script> <!-- Modernizr -->
+  <noscript><link rel="stylesheet" type="text/css" href="css/noJS.css"/></noscript>
+
+
+</head>
+
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded sticky-top shadow">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="../index.html">Root</a>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="layout.html">Layout <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="content.html">Content</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="components.html">Components</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="utilities.html">Utilities</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="pages.html">Pages</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="setup.html">Set-up</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<body>
+
+  <style>
+
+.icon-rc-basic path {
+  fill: #000000;
+}
+
+.icon-rc-basic path {
+  stroke: #000000;
+}
+
+
+use path#line {
+    stroke: #009966;
+}
+
+</style>
+        
+
+<div class="col-12 mt-4 p-4">
+  <div class="row">
+
+<div class="col-2">
+  <div class="list-group">
+      <a href="../layout.html" class="list-group-item list-group-item-action active">Layout Home</a>
+      <a href="layout/grid.html" class="list-group-item list-group-item-action">Grid</a>
+      <a href="layout/media-object.html" class="list-group-item list-group-item-action">Media Object</a>
+      <a href="layout/structure.html" class="list-group-item list-group-item-action">Structure</a>
+  </div>
+</div>
+
+
+<style>
+
+</style>
+
+<div class="col-10">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 shadow bg-white p-4">
+
+        <h1>Layout</h1>
+
+        <p>Components and options for laying out your Bootstrap project, including wrapping containers, a powerful grid system, a flexible media object, and responsive utility classes.</p>
+
+        <hr />
+
+
+
+    <figure class="highlight">
+      <pre><code class="language-html" data-lang="html">
+      <span class="cp">&lt;!doctype html&gt;</span>
+      <span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;head&gt;</span>
+          <span class="c">&lt;!-- Required meta tags --&gt;</span>
+          <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"width=device-width, initial-scale=1, shrink-to-fit=no"</span><span class="nt">&gt;</span>
+
+          <span class="c">&lt;!-- Root CSS --&gt;</span>
+          <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"../build/css/main.css"</span><span class="nt">&gt;</span>
+
+          <span class="nt">&lt;title&gt;</span>Hello, world!<span class="nt">&lt;/title&gt;</span>
+        <span class="nt">&lt;/head&gt;</span>
+        <span class="nt">&lt;body&gt;</span>
+          <span class="nt">&lt;h1&gt;</span>Hello, world!<span class="nt">&lt;/h1&gt;</span>
+
+          <span class="c">&lt;!-- Optional JavaScript --&gt;</span>
+          <span class="c">&lt;!-- jQuery first, then Popper.js, then Bootstrap JS --&gt;</span>
+          <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://code.jquery.com/jquery-3.2.1.slim.min.js"</span> <span class="na">integrity=</span><span class="s">"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;&lt;/script&gt;</span>
+          <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"</span> <span class="na">integrity=</span><span class="s">"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;&lt;/script&gt;</span>
+          <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"</span> <span class="na">integrity=</span><span class="s">"sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;&lt;/script&gt;</span>
+        <span class="nt">&lt;/body&gt;</span>
+        <span class="nt">&lt;/html&gt;</span>
+      </code></pre>
+    </figure>
+
+
+
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+</div> <!--End Container-->
+</div>
+
+<!-- Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+
+
+
+
+
+
+
+</body>
+
+</html>
