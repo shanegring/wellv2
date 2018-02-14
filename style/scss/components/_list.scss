@@ -2,9 +2,9 @@
 
 .list-group-item.active {
     z-index: 2;
-    color: #fff;
-    background-color: #429DB5;
-    border-color: #429DB5;
+    color: $white;
+    background-color: $well-blue;
+    border-color: $well-blue;
 }
 
 
@@ -25,7 +25,7 @@
 }
 
 .list-group-item {
-  border-top: 1px solid rgba(0,0,0,.125);
+  border-top: 1px solid rgba(black, .15);
   border-bottom: 0;
   border-left: 0;
   border-right: 0;
@@ -36,8 +36,8 @@
   }
 
 .list-group-item.active {
-    background-color: #49A1B8;
-    border-color: #49A1B8;
+    background-color: $well-blue;
+    border-color: $well-blue;
   }
 
 
