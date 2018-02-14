@@ -1,4 +1,121 @@
-/*Global Root styles; includes Bootstrap, Select, Include Media*/
+/*red*/
+/*Air*/
+/*Water*/
+/*Nourishment*/
+/*Light*/
+/*Fitness*/
+/*Comfort*/
+/*Sound*/
+/*Materials*/
+/*Mind*/
+/*Community*/
+/* Dark Greys */
+@import url("https://use.typekit.net/zcy3uha.css");
+.lightestcloud {
+  background-color: #F6F7F9;
+}
+
+.lightcloud {
+  background-color: #f2f3f3;
+}
+
+.cloudygrey {
+  background-color: #E5E6E7;
+}
+
+.darkcloud {
+  background-color: #cacdcf;
+}
+
+.darkestcloud {
+  background-color: #b0b3b6;
+}
+
+/* WELL Blue */
+.lightestwellblue {
+  background-color: #89c4d4;
+}
+
+.lightwellblue {
+  background-color: #64b2c6;
+}
+
+.wellblue {
+  background-color: #429DB5;
+}
+
+.darkwellblue {
+  background-color: #347d90;
+}
+
+.darkestwellblue {
+  background-color: #275c6a;
+}
+
+/* Light Grey */
+.lightsmoke {
+  background-color: #959595;
+}
+
+.smoke {
+  background-color: #7c7c7c;
+}
+
+.charcoal {
+  background-color: #626262;
+}
+
+.burntcharcoal {
+  background-color: #494949;
+}
+
+.darkcharcoal {
+  background-color: #2f2f2f;
+}
+
+/* Seven concept WELL colors*/
+.well-air-bg {
+  background-color: #144249;
+}
+
+.well-water-bg {
+  background-color: #0B667F;
+}
+
+.well-nourishment-bg {
+  background-color: #0A7B98;
+}
+
+.well-light-bg {
+  background-color: #3C9EB7;
+}
+
+.well-fitness-bg {
+  background-color: #92CCD4;
+}
+
+.well-comfort-bg {
+  background-color: #A8D6AD;
+}
+
+.well-sound-bg {
+  background-color: #63AA85;
+}
+
+.well-materials-bg {
+  background-color: #41937D;
+}
+
+.well-mind-bg {
+  background-color: #306B5E;
+}
+
+.well-community-bg {
+  background-color: #23483E;
+}
+
+/* Placeholder text color
+$input-color-placeholder: #999 !default;*/
 /*!
  * Bootstrap v4.0.0-alpha.6 (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
@@ -10765,7 +10882,7 @@ input:focus, textarea:focus {
   padding-left: 1.6rem;
   font-size: 1rem;
   color: #fff;
-  background-color: #f4f6f8;
+  /*background-color: #f4f6f8;*/
 }
 
 .ColorPaletteLabel {
