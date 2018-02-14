@@ -3,7 +3,7 @@
 
 
 nav {
-	background: #38138E; 
+	background: $white; 
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 1.1em;
@@ -23,7 +23,7 @@ nav {
 }
 
 .navbar-toggler-icon span {
-	background-color: white;
+	background-color: $white;
 }
 
 
@@ -50,16 +50,16 @@ nav {
 /* Navs */
 
 .nav-tabs .nav-link {
-  color: #979797;
+  color: $smoke;
 }
 
 .nav-tabs .nav-link:hover {
-  color: #49A1B8;
+  color: $burnt-charcoal;
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    color: #49A1B8;
-    background-color: #fff;
+    color: $light-smoke;
+    background-color: $white;
     border-color: transparent;
     box-shadow: none;
 }
@@ -69,6 +69,6 @@ nav {
 }
 
 a .nav-link {
-  color: #979797
+  color: $light-smoke;
 }
  
