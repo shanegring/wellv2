@@ -9,7 +9,7 @@
 @import 'abstracts/mixins';
 @import 'abstracts/placeholders';
 
-/*Font; currently controlled by Root. Need to get Local*/
+/*Font, managed locally*/
 @import '././node_modules/sass-fonts/settings/settings.typography';     
 @import '././node_modules/sass-fonts/settings/settings.typekit';
 @import '././node_modules/inuitcss/tools/tools.font-size'; 
