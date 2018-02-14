@@ -94,8 +94,8 @@ border-radius: 0rem;
 
 .card-header {
   background-color: $light-cloud;
-  border-top: 1px solid rgba(0,0,0,.125);
-  border-bottom: 0px solid rgba(0,0,0,.125);
+  border-top:$black;
+  border-bottom:$black;
 }
 
 .card-header:first-child {
