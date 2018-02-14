@@ -1,0 +1,74 @@
+
+@import "./abstracts/variables";
+
+
+nav {
+	background: #38138E; 
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	letter-spacing: 2px;
+}
+
+
+.nav-link.active {
+	color: $primary
+}
+
+/*nav menu button*/
+
+.navbar-toggler {
+	border: none;
+	background-color: none;
+}
+
+.navbar-toggler-icon span {
+	background-color: white;
+}
+
+
+.navbar-nav li {
+	padding-right: 1em;
+}
+
+.navbar {
+  background: $white;
+}
+
+
+/* Navigation */
+.nav-tabs .nav-link {
+    border: 0px solid transparent;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+    padding-top: 1rem;
+}
+
+
+
+
+/* Navs */
+
+.nav-tabs .nav-link {
+  color: #979797;
+}
+
+.nav-tabs .nav-link:hover {
+  color: #49A1B8;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #49A1B8;
+    background-color: #fff;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid transparent;
+}
+
+a .nav-link {
+  color: #979797
+}
+ 

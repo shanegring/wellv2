@@ -1,0 +1,173 @@
+$white: #ffffff;
+$black: #000000;
+
+$indigo: #38138E;
+$red: #D85B56;
+$blue: #6AB7E1;
+$creme: #FFFAF0;
+
+
+$red:#C40B07;  /*red*/ 
+
+$platinum: #555;
+$gold: #C48E29;
+$silver: #ccc;
+
+
+$primary: #F39019;
+
+$deep-ocean: #144249; /*Air*/
+$ocean-blue: #0B667F; /*Water*/
+$sea-blue: #0A7B98; /*Nourishment*/
+$light-blue: #3C9EB7; /*Light*/
+$icy-blue: #92CCD4; /*Fitness*/
+$light-grass: #A8D6AD; /*Comfort*/
+$grassy-green: #63AA85; /*Sound*/
+$sea-green: #41937D; /*Materials*/
+$deep-green: #306B5E; /*Mind*/
+$darkest-green: #23483E; /*Community*/
+
+
+$dark-grey: #626262;
+$light-grey:#E5E6E7;
+$lightest-cloud:#F6F7F9;
+
+
+/* Light Greys */
+
+.lightestcloud {
+	background-color: $lightest-cloud;
+}
+
+.lightcloud {
+	background-color: lighten($light-grey, 5);
+}
+
+.cloudygrey {
+	background-color: $light-grey;
+}
+
+.darkcloud {
+	background-color: darken($light-grey, 10);
+}
+
+.darkestcloud {
+	background-color: darken($light-grey, 20);
+}
+
+
+
+
+
+/* Dark Grey */
+
+.lightsmoke {
+	background-color: lighten($dark-grey, 20);
+}
+
+.smoke {
+	background-color: lighten($dark-grey, 10);
+}
+
+.charcoal {
+	background-color: $dark-grey;
+}
+
+.burntcharcoal {
+	background-color: darken($dark-grey, 10);
+}
+
+.darkcharcoal {
+	background-color: darken($dark-grey, 20);
+}
+
+
+
+
+
+
+
+/* WELL Blue */
+
+.lightestwellblue {
+	background-color: lighten($primary, 20);
+}
+
+.lightwellblue {
+	background-color: lighten($primary, 10);
+}
+
+.wellblue {
+	background-color: $primary;
+}
+
+.darkwellblue {
+	background-color: darken($primary, 10);
+}
+
+.darkestwellblue {
+	background-color: darken($primary, 20);
+}
+
+
+
+
+
+
+/* Seven concept WELL colors*/
+
+.well-air-bg {
+	background-color: $deep-ocean;
+}
+
+.well-water-bg {
+	background-color: $ocean-blue;
+}
+
+.well-nourishment-bg {
+	background-color: $sea-blue;
+}
+
+.well-light-bg {
+	background-color: $light-blue;
+}
+
+.well-fitness-bg {
+	background-color: $icy-blue;
+}
+
+.well-comfort-bg {
+	background-color: $light-grass;
+}
+
+.well-sound-bg {
+	background-color: $grassy-green;
+}
+
+.well-materials-bg {
+	background-color: $sea-green;
+}
+
+.well-mind-bg {
+	background-color: $deep-green;
+}
+
+.well-community-bg {
+	background-color: $darkest-green;
+}
+
+
+
+
+// Variables for Include Media //
+$color-red-error: rgb(185, 74, 72) !default;
+$color-grey-arrow: rgba(204, 204, 204, 0.2) !default;
+
+$width-default: 220px !default; // 3 960px-grid columns
+
+$zindex-select-dropdown: 1060 !default; // must be higher than a modal background (1050)
+
+/* Placeholder text color
+$input-color-placeholder: #999 !default;*/
+
+

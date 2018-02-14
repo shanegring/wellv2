@@ -1,0 +1,39 @@
+
+
+
+/* Lists */
+.list-group-item:last-child {
+    border-bottom-right-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+}
+
+.list-group-item:first-child {
+    border-top-right-radius: 0rem;
+    border-top-left-radius: 0rem;
+}
+
+.list-group-item:last-child {
+    border-bottom-right-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+}
+
+.list-group-item {
+  border-top: 1px solid rgba(0,0,0,.125);
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.list-group-item:first-child {
+  border-top: 0;
+  }
+
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: $primary;
+    border-color: $primary;
+  }
+
+
+
